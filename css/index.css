@@ -31,6 +31,24 @@
     display: flex;
     flex-wrap: wrap;
 }
+#sub1{
+    position: relative;
+}
+#carr{
+    color: white;
+    padding: 1px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    font-weight: bold;
+    background-color: red;
+}
 
 
 

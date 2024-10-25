@@ -220,7 +220,7 @@
       "discount": 74,
       "n_price": 7800,
       "rate": 3.5,
-      "quenty": 1
+      "quenty": 2
     },
     {
       "id": "2",
@@ -245,14 +245,14 @@
       "quenty": 1
     },
     {
-      "id": "2",
-      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
-      "type": "shose",
-      "price": 319,
-      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
-      "discount": 87,
-      "n_price": 1300,
-      "rate": 4,
+      "id": "16",
+      "img": "https://www.jiomart.com/images/product/original/rvz0cwdj2n/eyebogler-men-s-full-sleeves-collor-neck-regular-fit-solid-black-t-shirt-product-images-rvz0cwdj2n-0-202211052110.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 759,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 82,
+      "n_price": 1200,
+      "rate": 3.5,
       "quenty": 1
     }
   ]

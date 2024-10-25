@@ -14,12 +14,14 @@ function fun() {
             document.getElementById("mm").innerHTML = view(res);
             // console.log(res);
             console.log(res.length);
+            console.log(res);
+            
             
             document.getElementById("add").addEventListener("click",()=>
                 {
                     
 
-                    add_TO_Cart(res,id)
+                    add_TO_Cart(res)
                   })
 
 
@@ -45,43 +47,46 @@ function view(el) {
 
 fun()
 
-function add_TO_Cart(add,id) {
+function add_TO_Cart(res) {
 
+    fetch( `http://localhost:3000/cart?id=${res.id}`)
+    .then((r)=>{
+        return r.json();
 
+    })
+    .then((Res)=>{
+        console.log(Res);
+        if(Res.length>0){
 
+            alert("noooooooooooo")
+        }
+        else{
 
-fetch(`http://localhost:3000/cart?id=${add[0].id}`)
-
-.then((r)=>{
-    return r.json();
-})
-.then((add)=>{
-    if(add.length>0){
-        alert("noooooooooo")
-    }
-    else{
+            fetch(`http://localhost:3000/cart`, {
+                method: "POST",
+                headers: {
+                    "content-type": "application/json"
         
-    fetch(`http://localhost:3000/cart`, {
-        method: "POST",
-        headers: {
-            "content-type": "application/json"
+                },
+                body: JSON.stringify({...res,quenty:1})
+            })
+            .then((r)=>{
+                return r.json();
+            })
+            .then((res)=>{
+                alert("ssssssssssssssssss")
+            })
+        
+        }
 
-        },
-        body: JSON.stringify({...add,quenty:1})
+        
+    })
+    .catch((er)=>{
+        console.log(er);
+        
     })
 
-
-    }
-})
-
-
-
-
-
-
-
+   
 
 
 }
-
-
