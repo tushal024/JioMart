@@ -1,12 +1,259 @@
 {
-    "product":[
-        {
-            "img":"https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
-            "price": 359,
-            "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
-            "discount":74,
-            "n_price":78 
-            
-        }
-    ]
+  "product": [
+    {
+      "id": "1",
+      "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
+      "type": "t-shirt",
+      "price": 359,
+      "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
+      "discount": 74,
+      "n_price": 7800,
+      "rate": 3.5
+    },
+    {
+      "id": "2",
+      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4
+    },
+    {
+      "id": "3",
+      "img": "https://www.jiomart.com/images/product/original/rvsbp2gt3b/eyebogler-pink-tshirts-men-tshirt-tshirt-for-men-tshirt-mens-tshirt-men-s-polo-neck-regular-fit-half-sleeves-colorblocked-t-shirt-product-images-rvsbp2gt3b-0-202402121853.jpg?im=Resize=(330,410)",
+      "price": 229,
+      "des": "ANUJ FASHION Men's Cotton Blend Plain Full Sleeves Formal Kurta (Grey-XL)",
+      "discount": 84,
+      "n_price": 1390,
+      "rate": 3.8
+    },
+    {
+      "id": "4",
+      "img": "https://www.jiomart.com/images/product/original/rvatca5nr7/davidson-aviator-black-sunglasses-men-and-women-product-images-rvatca5nr7-0-202205062349.jpg?im=Resize=(600,750)",
+      "type": "goggles",
+      "price": 249,
+      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
+      "discount": 72,
+      "n_price": 1099,
+      "rate": 3.2
+    },
+    {
+      "id": "5",
+      "img": "https://www.jiomart.com/images/product/original/rvnrmsb32v/freddy-square-stylish-sunglasses-trendy-goggle-for-men-women-100-uv-protection-fashion-sunglass-black-medium-product-images-rvnrmsb32v-0-202306231017.jpg?im=Resize=(330,410)",
+      "type": "goggles",
+      "price": 449,
+      "des": "ANUJ FASHION Men's Cotton Blend Plain Full Sleeves Formal Kurta (Grey-XL)",
+      "discount": 56,
+      "n_price": 999,
+      "rate": 3.1
+    },
+    {
+      "id": "6",
+      "img": "https://www.jiomart.com/images/product/original/rvorctjp0b/freddy-square-stylish-sunglasses-trendy-goggle-for-men-women-100-uv-protection-fashion-sunglass-brown-medium-product-images-rvorctjp0b-0-202306221326.jpg?im=Resize=(330,410)",
+      "type": "goggles",
+      "price": 799,
+      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men",
+      "discount": 72,
+      "n_price": 1499,
+      "rate": 3.4
+    },
+    {
+      "id": "7",
+      "img": "https://www.jiomart.com/images/product/original/rv2xvryt6p/summer-dream-square-golden-black-sunglasses-matte-black-goggles-for-men-product-images-rv2xvryt6p-0-202405212252.jpg?im=Resize=(330,410)",
+      "type": "goggles",
+      "price": 449,
+      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
+      "discount": 48,
+      "n_price": 899,
+      "rate": 2.8
+    },
+    {
+      "id": "8",
+      "img": "https://www.jiomart.com/images/product/original/rv42clwarq/forever-99-polarized-sunglasses-for-men-uv-protection-aviator-shape-goggles-sunglass-product-images-rv42clwarq-0-202305270710.jpg?im=Resize=(330,410)",
+      "type": "goggles",
+      "price": 278,
+      "des": "Forever 99 Polarized Sunglasses For Men UV Protection Aviator Shape Goggles Sunglass",
+      "discount": 60,
+      "n_price": 899,
+      "rate": 4
+    },
+    {
+      "id": "9",
+      "img": "https://www.jiomart.com/images/product/original/rvo6nga8jz/forever-99-aviator-polarized-uv-protected-sunglasses-for-men-women-goggles-for-men-women-product-images-rvo6nga8jz-0-202305261746.jpg?im=Resize=(600,750)",
+      "type": "goggles",
+      "price": 499,
+      "des": "Forever 99 Polarized Sunglasses For Men UV Protection Aviator Shape Goggles Sunglass",
+      "discount": 72,
+      "n_price": 1229,
+      "rate": 4.1
+    },
+    {
+      "id": "10",
+      "img": "https://www.jiomart.com/images/product/original/rv4tx8ermr/sparx-blue-walking-shoes-men-sm-679-product-images-rv4tx8ermr-0-202402280340.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 1289,
+      "des": "Sparx Blue Walking Shoes Men SM-679",
+      "discount": 80,
+      "n_price": 2300,
+      "rate": 4.1
+    },
+    {
+      "id": "11",
+      "img": "https://www.jiomart.com/images/product/original/rvipftxg3s/sparx-grey-running-shoes-men-sm-648-product-images-rvipftxg3s-0-202402280000.jpg?im=Resize=(600,750)",
+      "type": "shose",
+      "price": 2299,
+      "des": "Ranway Shoe Men's Black-Orange Synthetic Comfortable Lace-Up Sport/Running/Gym Shoes",
+      "discount": 82,
+      "n_price": 4399,
+      "rate": 4.2
+    },
+    {
+      "id": "12",
+      "img": "https://www.jiomart.com/images/product/original/rvvuuzr7qf/sparx-navy-running-shoes-men-sm-648-product-images-rvvuuzr7qf-0-202402280002.jpg?im=Resize=(600,750)",
+      "type": "shose",
+      "price": 1799,
+      "des": "Sparx Navy Running Shoes Men SM-648",
+      "discount": 72,
+      "n_price": 2399,
+      "rate": 4.4
+    },
+    {
+      "id": "13",
+      "img": "https://www.jiomart.com/images/product/original/rvj5bax76o/rex-shoes-men-s-shark-sports-running-shoe-casual-lightweight-sneaker-for-men-product-images-rvj5bax76o-0-202409271858.jpg?im=Resize=(600,750)",
+      "type": "shose",
+      "price": 1199,
+      "des": "Sparx Navy Running Shoes Men SM-648",
+      "discount": 88,
+      "n_price": 1799,
+      "rate": 4.2
+    },
+    {
+      "id": "14",
+      "img": "https://www.jiomart.com/images/product/original/rvflclhn6g/p-r-shoes-men-s-navy-comfortable-versatile-slip-on-loafers-product-images-rvflclhn6g-0-202401180517.jpg?im=Resize=(600,750)",
+      "type": "shose",
+      "price": 899,
+      "des": "Sparx Navy Running Shoes Men SM-648",
+      "discount": 88,
+      "n_price": 1299,
+      "rate": 4.3
+    },
+    {
+      "id": "15",
+      "img": "https://www.jiomart.com/images/product/original/rvpekygbh3/eyebogler-mens-henley-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvpekygbh3-0-202302021731.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 359,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 74,
+      "n_price": 800,
+      "rate": 3.5
+    },
+    {
+      "id": "16",
+      "img": "https://www.jiomart.com/images/product/original/rvz0cwdj2n/eyebogler-men-s-full-sleeves-collor-neck-regular-fit-solid-black-t-shirt-product-images-rvz0cwdj2n-0-202211052110.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 759,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 82,
+      "n_price": 1200,
+      "rate": 3.5
+    },
+    {
+      "id": "17",
+      "img": "https://www.jiomart.com/images/product/original/rv62jckxpe/eyebogler-grey-mens-round-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rv62jckxpe-0-202402111505.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 699,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt",
+      "discount": 72,
+      "n_price": 1100,
+      "rate": 3.4
+    },
+    {
+      "id": "18",
+      "img": "https://www.jiomart.com/images/product/original/rvwhnsrdke/eyebogler-mens-hooded-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvwhnsrdke-0-202302021729.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 999,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 82,
+      "n_price": 1800,
+      "rate": 3
+    },
+    {
+      "id": "19",
+      "img": "https://www.jiomart.com/images/product/original/rvqfvmaep3/octavian-mens-full-sleeve-lycra-shirt-men-s-shirts-summer-wear-shirt-for-men-perfect-for-outing-322-l-product-images-rvqfvmaep3-0-202404110025.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 599,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 72,
+      "n_price": 999,
+      "rate": 3.1
+    },
+    {
+      "id": "20",
+      "img": "https://www.jiomart.com/images/product/original/rvyadjdn0p/eyebogler-regular-fit-teal-polo-neck-striped-tshirt-product-images-rvyadjdn0p-0-202402121857.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 899,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 88,
+      "n_price": 1299,
+      "rate": 3.4
+    },
+    {
+      "id": "21",
+      "img": "https://www.jiomart.com/images/product/original/463855468005/campus-runner-white-running-shoes-for-men-product-images-463855468005-0-202408271406.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
+      "type": "t-shirt",
+      "price": 359,
+      "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
+      "discount": 74,
+      "n_price": 7800,
+      "rate": 3.5,
+      "quenty": 1
+    },
+    {
+      "id": "2",
+      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4,
+      "quenty": 1
+    },
+    {
+      "id": "2",
+      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4,
+      "quenty": 1
+    },
+    {
+      "id": "2",
+      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4,
+      "quenty": 1
+    }
+  ]
 }

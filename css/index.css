@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#sec-1{
+    display: flex;
+
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+#box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+}
+#pr_text{
+    width: 100%;
+}
+#line{
+    text-decoration: line-through;
+}
+#c_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
