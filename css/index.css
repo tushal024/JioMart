@@ -1,5 +1,1377 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5F1F7;
+}
+
+#box {
+    width: 200px;
+    height: 80%;
+    /* border: 1px solid green; */
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+
+#img {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    /* border: 1px solid yellow; */
+    background-image: url(/Assets/shree-misthan-kaju-katli-400g-200g-x-2-product-images-orvrotm4rii-p604027500-0-202309070958.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#text h1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#text h2 {
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+}
+
+#text span {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#text span #p1 {
+    font-weight: 600;
+    color: black;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+#text span p {
+    font-weight: 600;
+    color: #03753C;
+    background-color: #E5F7EE;
+}
+
+#text button {
+    width: 100%;
+    height: 42px;
+    border-radius: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background: none;
+    color: #0C5273;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#text #button {
+    width: 100%;
+}
+
+#container #img1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container #img2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/btw-rasgulla-1-kg-product-images-orvsd6ox7u7-p605609584-0-202310231621.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container #img3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/indiyum-kaju-barfi-400g-200g-x-2-product-images-orvcbqltcar-p600142168-0-202304041007.jpg);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container #img4 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/popwings-women-casual-self-design-black-crop-top-women-tops-women-casual-tops-women-round-neck-tops-women-sleeveless-tops-product-images-rvtpkn5m0e-0-202310181559.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container #img5 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/realme-buds-t110-with-ai-enc-for-calls-upto-38-hours-of-playback-and-fast-charging-bluetooth-headset-punk-black-true-wireless-digital-o494410459-p608763167-0-202406031.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* section-2-css-------------------------------------------------------------------------- */
+#container2 {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container2 #img {
+    width: 95%;
+    height: 75%;
+    background-image: url(/Assets/1729238208_Handpicked_Offers_2368x400.webp);
+    background-size: cover;
+    border-radius: 50px;
+}
+
+/* section-3-css-------------------------------------------------------------------------- */
+
+#container3 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container3 #img1 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729575548_Oppo_K12x_5G.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container3 #img2 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729227803_Furniture_Bestsellers2x.webp);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#container3 #img3 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729227869_Womens_Accessories2x.webp);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#container3 #img4 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729227936_Cooking_Essentials.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container3 #img5 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729228392_Mens_Footwear2x.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container3 #img6 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729400078_Acs_and_Washinh_Machine.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+/* section-4-css-------------------------------------------------------------------------- */
+#container4 {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container4 #img1 {
+    width: 40%;
+    height: 130px;
+    background-image: url(/Assets/1729230624_Home_and_Lifestlye.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#container4 #img2 {
+    width: 40%;
+    height: 130px;
+    background-image: url(/Assets/1729230687_TV___Laptops___Large_Appliances.webp);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* section-5-css-------------------------------------------------------------------------- */
+
+#container5 {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container5 #img {
+    width: 95%;
+    height: 75%;
+    background-image: url(/Assets/1729689853_Style_Essentials_2368x400.webp);
+    background-size: cover;
+    border-radius: 50px;
+}
+
+
+#container6 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container6 #img1 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729688951_Dresses.jpg);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container6 #img2 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729688974_shirts.webp);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#container6 #img3 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729688998_Kids_clothing.webp);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#container6 #img4 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729689021_Puma_Woodland.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container6 #img5 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729689084_trends.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container6 #img6 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729400078_Acs_and_Washinh_Machine.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+
+/* section-7------------------------------------------------------------------------------------------------ */
+
+
+#container7 {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFE68E;
+}
+
+#container7 #box {
+    width: 200px;
+    height: 80%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#container7 #text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#container7 #text h1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#container7 #text h2 {
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+}
+
+#container7 #text span {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#container7 #text span #p1 {
+    font-weight: 600;
+    color: black;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+#container7 #text span p {
+    font-weight: 600;
+    color: #03753C;
+    background-color: #E5F7EE;
+}
+
+#container7 #text button {
+    width: 100%;
+    height: 42px;
+    border-radius: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background: none;
+    color: #0C5273;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#container7 #text #button {
+    width: 100%;
+}
+
+#container7 #img {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    /* border: 1px solid yellow; */
+    background-image: url(/Assets/ferrero-rocher-chocolate-balls-300-g-product-images-o490010010-p590109998-0-202207230542.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container7 #img1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    /* border: 1px solid yellow; */
+    background-image: url(/Assets/luvit-goodies-chocolates-assorted-gift-pack-best-gift-for-valentine-s-special-celebration-pack-pack-of-2-164-6g-product-images-orve5jxjds9-p591471861-0-202410011211\ \(1\).jpg);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container7 #img2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/ferrero-rocher-moments-hazenut-flavor-16-pralines-pcs-92-8gm-product-images-orvm6hrf0zz-p609115146-0-202405281158.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container7 #img3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/bikaji-premium-soanpapdi-450-g-product-images-o490886599-p590041204-0-202410101853.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container7 #img4 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/bambino-soan-papdi-badam-flavour-pack-of-2-300-gms-product-images-orvp7univrs-p591566541-0-202309191745.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container7 #img5 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/bikaji-premium-gulab-jamun-1-kg-product-images-o491089340-p590041207-0-202405141909.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* section-8------------------------------------------------------------------------------------------------ */
+
+
+/* section-5-css-------------------------------------------------------------------------- */
+
+#container8 {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container8 #img {
+    width: 95%;
+    height: 75%;
+    background-image: url(/Assets/1729241825_Diwali_Needs_2368x400.webp
+);
+    background-size: cover;
+    border-radius: 50px;
+}
+
+
+#container9 {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container9 #img1 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729231202_Backpacks_and_Suitcases.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container9 #img2 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729231309_Pooja_Needs.webp);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#container9 #img3 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729234526_Car_and_Bike_Care.webp);
+    background-size: contain;
+    border-radius: 20px;
+}
+
+#container9 #img4 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729231524_Soaps_Shampoo.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container9 #img5 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729231632_Beauty_Essentials.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+#container9 #img6 {
+    width: 15%;
+    height: 90%;
+    background-image: url(/Assets/1729231562_Tea_biscuits.webp);
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+
+/* section-7------------------------------------------------------------------------------------------------ */
+
+
+#container10 {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFE68E;
+}
+
+#container10 #box {
+    width: 200px;
+    height: 80%;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+#container7 #text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#container7 #text h1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#container7 #text h2 {
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+}
+
+#container7 #text span {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#container7 #text span #p1 {
+    font-weight: 600;
+    color: black;
+    opacity: 50%;
+    text-decoration: line-through;
+}
+
+#container7 #text span p {
+    font-weight: 600;
+    color: #03753C;
+    background-color: #E5F7EE;
+}
+
+#container7 #text button {
+    width: 100%;
+    height: 42px;
+    border-radius: 50px;
+    border: 1px solid rgb(92, 91, 91);
+    background: none;
+    color: #0C5273;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#container7 #text #button {
+    width: 100%;
+}
+
+#container10 #img {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    /* border: 1px solid yellow; */
+    background-image: url(/Assets/oppo-k12x-5g-128-gb-6-gb-ram-midnight-navy-mobile-phone-digital-o494422233-p609630871-0-202407311923.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container10 #img1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    /* border: 1px solid yellow; */
+    background-image: url(/Assets/boat-bassheads-100-in-ear-wired-earphones-with-super-extra-bass-in-line-mic-hawk-inspired-design-and-perfect-length-cable-black-digital-o491893312-p590035489-0-202202131737.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container10 #img2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/poco-m6-5g-64-gb-4-gb-ram-blue-mobile-phone-digital-o494422119-p609636244-0-202408011123.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container10 #img3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/boat-wave-fury-smartwatch-with-4-64-cm-1-83-inch-hd-display-advanced-bluetooth-calling-functional-crown-50-sports-mode-ip67-dust-sweat-splash-resistant-active-black-digital-o494422055-p609566.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container10 #img4 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/tefal-electric-steam-iron-essential-1200-watt-ii-steam-dry-position-iron-ii-2-year-warranty-ii-150-ml-tank-linished-non-stick-soleplate-up-to-10-g-min-of-steam-product-images-orvvrot4hmd-p610.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container10 #img5 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    background-image: url(/Assets/onelife-power-16-50000-mah-22-5w-quick-charge-power-bank-with-led-torch-black-product-images-orv1ttcvz18-p609350301-0-202406131935.webp);
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* <!-- <--------------new section start ------- >>>>>>>>>>> --> */
+#bank {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#bank1 {
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/1727268433_Paytm-UPI-632-x-160.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#bank2 {
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/1729233717_BOB-Credit-Cards--632-x160.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#bank3 {
+    width: 450px;
+    height: 100px;
+    /* border: 1px solid orangered; */
+    background-image: url(/Assets/1729233780_BOB-DC-Cards--632-x160.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+/* <!-- >>>>>>>>>>--section-1--<<<<<<<<<<<<<< --> */
+.a {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.b {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.b #img1 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img2 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img2.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img3 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img4 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img4.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img5 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img5.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img6 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img6.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img7 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img7.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img8 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img8.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img9 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img9.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img10 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img10.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img11 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img11.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.b #img12 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/img12.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.c {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.c #img {
+    width: 95%;
+    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Assets/1729248859_Sweets__Snacks_2368x400.webp);
+}
+
+
+.d {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.d #img1 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/14.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.d #img2 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/15.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.d #img3 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/16.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.d #img4 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/17.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.d #img5 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/19.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.d #img6 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/18.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.f {
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.f #img {
+    width: 95%;
+    height: 100%;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Assets/1729243630_Featured_Spotlight_2368x400\ \(1\).webp);
+}
+
+
+
+.e {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.e #img1 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/Assets/20.webp);
+}
+
+.e #img2 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/21.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.e #img3 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/22.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.e #img4 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/23.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.e #img5 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/24.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.e #img6 {
+    width: 210px;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-image: url(/Assets/25.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.g {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+#h {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFE68E;
+}
+
+#box {
+    width: 200px;
+    height: 80%;
+    /* border: 1px solid green; */
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+
+#h #img {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/26.webp);
+}
+
+#h #img1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/27.webp);
+}
+
+#h #img2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/28.webp);
+}
+
+#h #img3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/29.webp);
+}
+
+#h #img4 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/30.webp);
+}
+
+#h #img5 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/31.webp);
+}
+
+
+#j {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFE68E;
+}
+
+#box {
+    width: 200px;
+    height: 80%;
+    /* border: 1px solid green; */
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+
+#j #img {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/01.webp);
+}
+
+#j #img1 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/02.webp);
+}
+
+#j #img2 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/03.webp);
+}
+
+#j #img3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/04.webp);
+}
+
+#j #img4 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/05.webp);
+}
+
+#j #img5 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Assets/06.webp);
+}
+
+.k {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.k #img{
+    width: 95%;
+    height: 225px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/07.webp);
+    background-size: contain;
+    border-radius:10px;
+}
+
+.l {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.l #img{
+    width: 95%;
+    height: 225px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/08.webp);
+    background-size: contain;
+    border-radius:10px;
+}
+
+.m {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.m #img{
+    width: 95%;
+    height: 225px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/09.webp);
+    background-size: contain;
+    border-radius:10px;
+}
+
+.o {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.o #img{
+    width: 95%;
+    height: 225px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/010.webp);
+    background-size: contain;
+    border-radius:20px;
+}
+.p {
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.p #img{
+    width: 95%;
+    height: 225px;
+    /* border: 1px solid black; */
+    background-image: url(/Assets/011.webp);
+    background-size: contain;
+    border-radius:20px;
 }
