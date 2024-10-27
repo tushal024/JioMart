@@ -216,36 +216,38 @@ style="border: 1px solid rgba(0, 0, 0, 0.226);" styl="">
                 </div>
 
             </div>
+<!-- ......................... -->
 
             <div id="di01" class="w-[100%] h-[400px] rounded-[20px] mt-[30px]"
                 style="border: 1px solid rgba(0, 0, 0, 0.226);">
                 <h1>Payment Details</h1>
                 <div id="sapn1"
-                    style="width: 90%; border-bottom: 1px solid black; display: flex; align-items: center; justify-content: space-between ; ">
+                    style="width: 90%; border-bottom: 1px solid black; padding-bottom: 10px; display: flex; align-items: center; justify-content: space-between ; ">
 
                     <p>MRP Total</p>
-                    <h2>₹2,200.00</h2>
+                    <h2 id="dc_price" style="color: black;">₹2,200.00</h2>
                 </div>
                 <div id="sapn1"
                     style="width: 100%; border-bottom: 1px solid black; display: flex; align-items: center; justify-content: space-between ;  ">
-                    <p>Product Discount</p>
-                    <h2>- ₹1,601.00</h2>
+                    <p>Product Discount (8%)</p>
+                    <span style="   color: #00B259; " class="text-[30px] me-[2px]"> - </span><h2 id="discount_fn"></h2>
                 </div>
                 <div id="sapn1"
-                    style="width: 100%; border-bottom: 1px solid black; display: flex; align-items: center; justify-content: space-between ; ">
+                    style="width: 100%; border-bottom: 1px solid black; padding-bottom: 10px; display: flex; align-items: center; justify-content: space-between ; ">
                     <p style="color: rgb(119, 117, 117); ">Delivery Fee (Scheduled Delivery)</p>
                     <h2>FREE </h2>
                 </div>
                 <div id="sapn1"
-                    style="width: 100%; border-bottom: 1px solid black; display: flex; align-items: center; justify-content: space-between ;  ">
+                    style="width: 100%;padding-bottom: 10px; border-bottom: 1px solid black; display: flex; align-items: center; justify-content: space-between ;  ">
                     <p> Total
                     </p>
-                    <h2>₹599.00</h2>
+                    <h2 id="fainal_bill" class="" style="color: black;"></h2>
                 </div>
                 <p div id="sapn1"
-                    style="width: 100%; border-bottom: 1px solid rgba(0, 0, 0, 0); display: flex; align-items: center; justify-content: space-between ; padding-left: 250px; color: #00B259; font-weight: 900;">
-                    You Saved ₹1,601.00</p>
-            </div>
+                    style="width: 100%; border-bottom: 1px solid rgba(0, 0, 0, 0); display: flex; align-items: center; justify-content: space-between ; padding-left: 190px; color: #00B259; font-weight: 900;">
+                    You Saved  <span id="beni" class="pe-[10%]">  </span></p>
+                </div>
+                <button class="w-[100%] border bg-[#0078AD] rounded-[20px] text-[16px] text-[white] font-[600] h-[50px] mt-[14px]">Plce Order</button>
 
 
         </div>

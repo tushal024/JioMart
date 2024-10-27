@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/index.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
     <style>
         *{
     margin: 0;
@@ -51,7 +55,7 @@
                     </ul>
                 </nav>
         </div>
-        <div id="section-1" class="mt-[10px]" style="width: 90%; height: auto; border: px solid black;  margin-left: 5%; display: flex; justify-content: space-between;">
+       <div id="section-1" class="mt-[10px]" style="width: 90%; height: auto; border: px solid black;  margin-left: 5%; display: flex; justify-content: space-between;">
         <aside class="w-[20%] h-[740px] absolute " >
 
             <div class="  w-[100%] bg-[#FAFAFA] p-3 h-[70vw] overflow-scroll">
@@ -59,9 +63,9 @@
                 <br>
                 <hr>
                 <br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> Women <br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> Men <br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> kids <br><br>
+                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " id="shoes"> Shoes <br>
+                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> T-Sert <br>
+                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> Goggles <br><br>
                 <hr>
                 <br>
                 <h1 class="font-bold mb-2">Brands</h1>
@@ -72,7 +76,7 @@
         
                 <hr><br>
                 <h1 class="font-bold mb-2">Price</h1>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " > Under $30<br>
+                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "  id="up"> Under $30<br>
                 <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> Above $x30<br><br>
                 <hr><br>
                 <h1 class="font-bold mb-2">Style</h1>
@@ -94,14 +98,43 @@
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: yellow;"></i> Yellow <br>
               </div>
         </aside>
-                <div id="sec-1" class="w-[80%] h-[auto]  ms-[24%]" style="border: px solid black;">
+                <div id="sec-1" class="w-[80%] h-[auto]  ms-[24%] border border-[red]" style="border: px solid black; border: none;">
 
                 </div>
+
+                <div id="ggg"   class="w-[80%] h-[auto]  ms-[24%] border border-[red] flex" style="border: px solid red; border: none; display: none; flex-wrap: wrap; ">
+              <div id="sec-2"></div>
+              <div id="sec-3"></div>
+              <div id="sec-4"></div>
+              <div id="sec-5"></div>
+              <div id="sec-6"></div>
+              <div id="sec-7"></div>
+              <div id="sec-8"></div>
+              <div id="sec-9"></div>
+              <div id="sec-10"></div>
+              <div id="sec-11"></div>
+              <div id="sec-12"></div>
+              <div id="sec-13"></div>
+              <div id="sec-14"></div>
+
+            </div>
+            
+            
 <!-- <input type="text" name="" id="" > -->
         </div>
 
 
 </body>
+
+<script>
+    $(document).ready(function(){
+        $("#up").click(function(){
+            $("#ggg").show()
+            $("#sec-1").hide()
+        })
+    })
+</script>
+
 <script src="js/product.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </html>

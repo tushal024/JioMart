@@ -24,15 +24,28 @@ function showw(arr) {
 
 
         a = a+  el.price* el.quenty
+
+
+       let ts= (a*8)/100
+
+
+       let fb= a-ts
+let benefit= a-ts
+       
         console.log(a);
         document.getElementById("total_pr").innerHTML= `₹${a}.00`
+        document.getElementById("dc_price").innerHTML= `₹${a}.00`
+
+        document.getElementById("discount_fn").innerHTML= `₹${ts}.00`
+         document.getElementById("fainal_bill").innerHTML= `₹${fb}.00`
+         document.getElementById("beni").innerHTML= `₹${benefit}`
 
         
         return `
             <div id="cart1" class="w-[100%] h-[auto]  mb-[20px]" style="border: px solid black;">
 
             <div id="cr1" class="w-[100%] h-[80%] flex" style="border: px solid black;">
-                <div id="cr_img" class="w-[25%] h-[100%] flex justify-center items-center" style="border: px solid black;">
+                <div id="cr_img" class="w-[25%] h-[100%] pt-[7%] flex justify-center items-center" style="border: px solid black;">
                     <img src="${el.img}" alt="" width="65%" height="60%">
                 </div>
                 <div id="cr_tex" class="w-[85%] h-[100%] pt-[3%]" style="border: px solid black;">
@@ -76,7 +89,7 @@ function showw(arr) {
 
 
 function inc(q, id, c) {
-
+    
     let a = q
     if (c == 'remove') {
         a = a - 1
