@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-<<<<<<< HEAD
+
     font-family: sans-serif;
 }
 
@@ -1023,7 +1023,7 @@
     background-size: cover;
     background-position: center;
     background-image: url(/Assets/1729243630_Featured_Spotlight_2368x400\ \(1\).webp);
-=======
+
 }
 
 #sec-1{
@@ -1070,12 +1070,12 @@
     left: 50%;
     font-weight: bold;
     background-color: red;
->>>>>>> bc7c560d015cc15a26d0ece25d3071765120ba0e
+
 }
 
 
 
-<<<<<<< HEAD
+
 .e {
     width: 100%;
     height: 400px;

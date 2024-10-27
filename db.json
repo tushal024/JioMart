@@ -212,48 +212,26 @@
   ],
   "cart": [
     {
-      "id": "1",
-      "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
-      "type": "t-shirt",
-      "price": 359,
-      "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
-      "discount": 74,
-      "n_price": 7800,
-      "rate": 3.5,
-      "quenty": 2
+      "id": "4",
+      "img": "https://www.jiomart.com/images/product/original/rvatca5nr7/davidson-aviator-black-sunglasses-men-and-women-product-images-rvatca5nr7-0-202205062349.jpg?im=Resize=(600,750)",
+      "type": "goggles",
+      "price": 249,
+      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
+      "discount": 72,
+      "n_price": 1099,
+      "rate": 3.2,
+      "quenty": 3
     },
     {
-      "id": "2",
-      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
+      "id": "11",
+      "img": "https://www.jiomart.com/images/product/original/rvipftxg3s/sparx-grey-running-shoes-men-sm-648-product-images-rvipftxg3s-0-202402280000.jpg?im=Resize=(600,750)",
       "type": "shose",
-      "price": 319,
-      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
-      "discount": 87,
-      "n_price": 1300,
-      "rate": 4,
-      "quenty": 1
-    },
-    {
-      "id": "2",
-      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
-      "type": "shose",
-      "price": 319,
-      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
-      "discount": 87,
-      "n_price": 1300,
-      "rate": 4,
-      "quenty": 1
-    },
-    {
-      "id": "16",
-      "img": "https://www.jiomart.com/images/product/original/rvz0cwdj2n/eyebogler-men-s-full-sleeves-collor-neck-regular-fit-solid-black-t-shirt-product-images-rvz0cwdj2n-0-202211052110.jpg?im=Resize=(330,410)",
-      "type": "t-shirt",
-      "price": 759,
-      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "price": 2299,
+      "des": "Ranway Shoe Men's Black-Orange Synthetic Comfortable Lace-Up Sport/Running/Gym Shoes",
       "discount": 82,
-      "n_price": 1200,
-      "rate": 3.5,
-      "quenty": 1
+      "n_price": 4399,
+      "rate": 4.2,
+      "quenty": 2
     }
   ]
 }
