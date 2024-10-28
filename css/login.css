@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Metrophobic", sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+body{
+    /* width: 100vh; */
+}
+.Loginmain{
+    width: 505px;
+    padding: 30px;
+    border: 3px solid #000;
+    border-radius: 8px;
+}
+
+#loginemail{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #000;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Mohave", sans-serif;
+    padding-left: 20px;
+}
+#loginpassword{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    color: #000;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Mohave", sans-serif;
+    padding-left: 20px;
+}
+#creat{
+    width: 90%;
+    height: 54px;
+    border: none;
+    background-color: #0f3cc9;
+    font-size: 18px;
+    color: #fff;
+    /* font-weight: 600; */
+    border-radius: 50px;
+    letter-spacing: 1px;
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+#creat:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+#P1{
+    font-size: 10px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#img1{
+    width: 50px;
+    height: 50px;
+    margin-left: 400px;
+}
+#S1{
+    font-size: 15px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-decoration: underline; */
+}
