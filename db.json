@@ -220,7 +220,7 @@
       "discount": 72,
       "n_price": 1099,
       "rate": 3.2,
-      "quenty": 3
+      "quenty": 4
     },
     {
       "id": "11",
@@ -231,7 +231,19 @@
       "discount": 82,
       "n_price": 4399,
       "rate": 4.2,
-      "quenty": 2
+      "quenty": 3
+    },
+    {
+      "id": "1",
+      "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
+      "type": "t-shirt",
+      "price": 359,
+      "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
+      "discount": 74,
+      "n_price": 7800,
+      "rate": 3.5,
+      "quenty": 3
     }
-  ]
+  ],
+  "lg_data":[]
 }

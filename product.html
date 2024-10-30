@@ -21,51 +21,60 @@
 </head>
 <body> 
     
-    
-        <div id="header" class="w-[100%] h-[80px]" style="display:flex;justify-content: space-evenly;align-items: center;" >
+    <!-- <div id="header"  class="w-[100%] h-[80px]" style="display:flex;justify-content: space-evenly;align-items: center;">
 
-            <div id="logo" class="w-[12%] h-[100%]" style=" display: flex; justify-content: center; align-items: center;">
-                <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1">
-            </div>
-            <div id="sub" class="w-[19%] h-[100%]" style="display: flex; justify-content: space-between; align-items: center;">
-             <p id="P1"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai 400020</p>
-            </div>
-            <div id="input" class="w-[501px] h-[100%]" style="display: flex; justify-content: center; align-items: center; position: relative;"><i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;" id="icon4"></i>
+        <div id="logo" class="w-[12%] h-[100%]" style=" display: flex; justify-content: center; align-items: center;">
+            <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1">
+        </div>
+        <div id="sub" class="w-[19%] h-[100%]"
+            style="display: flex; justify-content: space-between; align-items: center;">
+            <p id="P1"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+                400020</p>
+        </div>
+        <div id="input" class="w-[501px] h-[100%]"
+            style="display: flex; justify-content: center; align-items: center; position: relative;"><i
+                class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
+                id="icon4"></i>
             <i class="fa-solid fa-list" style="position: absolute; color: white; left: 470px;" id="icon5"></i>
-            <input type="text" placeholder="           Search JioMart" class="w-[500px] h-[40px]" style=" border-radius: 30px; background-color: #0c5273; " id="input1">
-            </div>
-            <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
-                <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
-            </div>
-            <div id="sub3" class="w-[8%] h-[100%]" style=" display: flex; justify-content: space-evenly; align-items: center;">
-                <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i>
-                <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>
-            </div>
+            <input type="text" placeholder="           Search JioMart" class="w-[500px] h-[40px]"
+                style=" border-radius: 30px; background-color: #0c5273; " id="input1">
         </div>
-        <div id="header2" class="w-[100%] h-[50px]" style=" display: flex; background-color: #0c5273;">
-                <nav>
-                    <ul>
-                      <li><a href="">Groceries</a></li>
-                      <li><a href="">Home & Lifestyle</a></li>
-                      <li><a href="">Electronics</a></li>
-                      <li><a href="">Fashion</a></li>
-                      <li><a href="">Industrial & Professional <br> Supplies</a></li>
-                      <li><a href="">Wellness</a></li>
-                      <li><a href="">All Categories</a></li>
-                    </ul>
-                </nav>
+        <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
+            <p id="carr"></p>
+            <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
         </div>
-       <div id="section-1" class="mt-[10px]" style="width: 90%; height: auto; border: px solid black;  margin-left: 5%; display: flex; justify-content: space-between;">
-        <aside class="w-[20%] h-[740px] absolute " >
+        <div id="sub3" class="w-[8%] h-[100%]"
+            style=" display: flex; justify-content: space-evenly; align-items: center;">
+            <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i>
+            <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>
+        </div>
+    </div>
+    <div id="header2"  class="w-[100%] h-[50px]" style=" display: flex; background-color: #0c5273;">
+        <nav>
+            <ul>
+                <li><a href="">Groceries</a></li>
+                <li><a href="">Home & Lifestyle</a></li>
+                <li><a href="">Electronics</a></li>
+                <li><a href="">Fashion</a></li>
+                <li><a href="">Industrial & Professional <br> Supplies</a></li>
+                <li><a href="">Wellness</a></li>
+                <li><a href="">All Categories</a></li>
+            </ul>
+        </nav>
+    </div> -->
+  
+    <i class="fa-solid fa-bars md:hidden text-[30px] absolute left-[10px] top-[10px]"></i>
+       <div id="section-1" class="mt-[10px] w-[90%] h-[auto] ms-[2.5%] flex flex-col justify-between flex-row" style="  border: px solid black;  ">
+        <aside class="w-[20%] h-[740px] absolute  hidden md:block "   id="adi">
 
-            <div class="  w-[100%] bg-[#FAFAFA] p-3 h-[70vw] overflow-scroll">
+            <div class="  w-[100%] bg-[#FAFAFA] p-3 h-[70vw] overflow-scroll" id="aaa">
                 <h1 class="font-bold text-2xl">Filters</h1>
                 <br>
                 <hr>
                 <br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " id="shoes"> Shoes <br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> T-Sert <br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> Goggles <br><br>
+                <input type="radio" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="shoes"> Shoes <br>
+                <input type="radio" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="tsert"> T-Sert <br>
+                <input type="radio" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="Goggles"> Goggles <br><br>
                 <hr>
                 <br>
                 <h1 class="font-bold mb-2">Brands</h1>
@@ -98,27 +107,21 @@
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: yellow;"></i> Yellow <br>
               </div>
         </aside>
-                <div id="sec-1" class="w-[80%] h-[auto]  ms-[24%] border border-[red]" style="border: px solid black; border: none;">
+  
+        <div id="sec-2"   class="w-[80px] h-[40px] ms-[90%]    ms-[24%] border border-[red]" style=" border: px solid black; border: none;">
 
+
+
+
+
+<select name="" id="opt" class="md:h-[100%] w-[100px] md:ms-[30px] ms-[-70px] h-[90%]  border rounded-[20px] ps-[10px] ">
+    <option value="normal">Sorting</option>
+    <option value="lh">Low To High</option>
+    <option value="hl">High To Low</option>
+</select>
+      </div>
+                <div id="sec-1" class="md:w-[80%] overflow-scroll ps-[15%] lg:w-[80%] lg:ps-[0%] lg:ms-[25%] w-[100%] sm:w-[100%] sm:ms-[]  sm:w-[100%] sm:ms-[25%]  h-[120vh] mt-[10px]   md:ms-[24%] border border-[red]" style="    border: 1px solid black;  border: none;" id="no">
                 </div>
-
-                <div id="ggg"   class="w-[80%] h-[auto]  ms-[24%] border border-[red] flex" style="border: px solid red; border: none; display: none; flex-wrap: wrap; ">
-              <div id="sec-2"></div>
-              <div id="sec-3"></div>
-              <div id="sec-4"></div>
-              <div id="sec-5"></div>
-              <div id="sec-6"></div>
-              <div id="sec-7"></div>
-              <div id="sec-8"></div>
-              <div id="sec-9"></div>
-              <div id="sec-10"></div>
-              <div id="sec-11"></div>
-              <div id="sec-12"></div>
-              <div id="sec-13"></div>
-              <div id="sec-14"></div>
-
-            </div>
-            
             
 <!-- <input type="text" name="" id="" > -->
         </div>
@@ -134,7 +137,7 @@
         })
     })
 </script>
-
+<script src="js/trolly.js"></script>
 <script src="js/product.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </html>
