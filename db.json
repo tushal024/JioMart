@@ -212,38 +212,27 @@
   ],
   "cart": [
     {
-      "id": "4",
-      "img": "https://www.jiomart.com/images/product/original/rvatca5nr7/davidson-aviator-black-sunglasses-men-and-women-product-images-rvatca5nr7-0-202205062349.jpg?im=Resize=(600,750)",
+      "id": "8",
+      "img": "https://www.jiomart.com/images/product/original/rv42clwarq/forever-99-polarized-sunglasses-for-men-uv-protection-aviator-shape-goggles-sunglass-product-images-rv42clwarq-0-202305270710.jpg?im=Resize=(330,410)",
       "type": "goggles",
-      "price": 249,
-      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
-      "discount": 72,
-      "n_price": 1099,
-      "rate": 3.2,
-      "quenty": 4
+      "price": 278,
+      "des": "Forever 99 Polarized Sunglasses For Men UV Protection Aviator Shape Goggles Sunglass",
+      "discount": 60,
+      "n_price": 899,
+      "rate": 4,
+      "quenty": 1
     },
     {
-      "id": "11",
-      "img": "https://www.jiomart.com/images/product/original/rvipftxg3s/sparx-grey-running-shoes-men-sm-648-product-images-rvipftxg3s-0-202402280000.jpg?im=Resize=(600,750)",
+      "id": "12",
+      "img": "https://www.jiomart.com/images/product/original/rvvuuzr7qf/sparx-navy-running-shoes-men-sm-648-product-images-rvvuuzr7qf-0-202402280002.jpg?im=Resize=(600,750)",
       "type": "shose",
-      "price": 2299,
-      "des": "Ranway Shoe Men's Black-Orange Synthetic Comfortable Lace-Up Sport/Running/Gym Shoes",
-      "discount": 82,
-      "n_price": 4399,
-      "rate": 4.2,
-      "quenty": 3
-    },
-    {
-      "id": "1",
-      "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
-      "type": "t-shirt",
-      "price": 359,
-      "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
-      "discount": 74,
-      "n_price": 7800,
-      "rate": 3.5,
-      "quenty": 3
+      "price": 1799,
+      "des": "Sparx Navy Running Shoes Men SM-648",
+      "discount": 72,
+      "n_price": 2399,
+      "rate": 4.4,
+      "quenty": 1
     }
   ],
-  "lg_data":[]
+  "lg_data": []
 }

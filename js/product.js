@@ -148,7 +148,7 @@ function op1(arr) {
 function view(arr) {
     return arr.map((el) => {
         return `
-              <div id="pr1" class="md:w-[32%]  sm:w-[80%] w-[85%] sm:w-[100%]  h-[400px] relative p-[15px] rounded-[10px] mb-[10px]" style="border: 1px solid rgba(0, 0, 0, 0.226);">
+              <div id="pr1" class=" w-[60%] ms-[20%] md:w-[32%] md:ms-[0px] h-[400px] relative p-[15px] rounded-[10px] mb-[10px]" style="border: 1px solid rgba(0, 0, 0, 0.226);">
               <i class="fa-regular fa-heart absolute right-[9%] text-[#DFDCD9] top-[5%] text-[24px]"></i>
             <div id="pr_img" class="h-[70%] w-[95%] " >  <a href="single_pr.html?id=${el.id}"> <img src="${el.img}" class=" rounded-[10px] ms-[2.5%]  h-[100%] w-[100%]"> </div>
     

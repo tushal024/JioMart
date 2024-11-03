@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
@@ -21,7 +24,7 @@
 </head>
 <body> 
     
-    <!-- <div id="header"  class="w-[100%] h-[80px]" style="display:flex;justify-content: space-evenly;align-items: center;">
+ <!-- <div id="header"  class="w-[100%] h-[80px]" style="display:flex;justify-content: space-evenly;align-items: center;">
 
         <div id="logo" class="w-[12%] h-[100%]" style=" display: flex; justify-content: center; align-items: center;">
             <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1">
@@ -61,11 +64,68 @@
                 <li><a href="">All Categories</a></li>
             </ul>
         </nav>
-    </div> -->
-  
-    <i class="fa-solid fa-bars md:hidden text-[30px] absolute left-[10px] top-[10px]"></i>
-       <div id="section-1" class="mt-[10px] w-[90%] h-[auto] ms-[2.5%] flex flex-col justify-between flex-row" style="  border: px solid black;  ">
-        <aside class="w-[20%] h-[740px] absolute  hidden md:block "   id="adi">
+    </div> 
+   -->
+
+   <!-- ............................................................................................................................. -->
+
+   <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+
+
+    <i class="fa-solid fa-bars ms-1 me-2 xl:hidden block text-white " id="toggle"></i>
+    <div id="logo" class="w-[auto] xl:w-[12%] h-[100%] flex justify-center items-center ">
+        <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1" class="">
+    </div>
+    <div id="sub" class="w-[50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
+        <p id="P1" class="text-[white]"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+            400020</p>
+    </div>
+    <div id="input" class="w-[250px] md:w-[200px] xl:w-[300px] lg:w-[301px] h-[100%] "
+        style="display: flex; justify-content: center; align-items: center; position: relative;"><i
+            class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
+            id="icon4"></i>
+        <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white;" id="icon5"></i>
+        <input type="text" placeholder="           Search JioMart" class="w-[250px] md:w-[350px] xl:w-[500px]  h-[40px]"
+            style=" border-radius: 30px; background-color: #0c5273; " id="input1">
+    </div>
+    <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
+        <p id="carr"></p>
+        <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
+    </div>
+    <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden" >
+        <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i>
+        <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>
+    </div>
+</div>
+<div id="header2"  class="w-[100%] xl:h-[50px] hidden xl:block xl:flex" style=" background-color: #0c5273;">
+    <nav class="md:w-[100%] h-[100%] text-[white] bg-[#0c5273] ">
+        <ul class="w-[100%] h-[100%] flex flex-wrap justify-evenly items-center ">
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">Groceries</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">Home & Lifestyle</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">Electronics</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">Fashion</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">Industrial & Professional Supplies</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">Wellness</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">All Categories</a></li>
+        </ul>
+    </nav>
+</div> 
+
+
+
+
+   <!-- ............................................................................................................................. -->
+
+
+
+
+    <!-- <i  id="barr" class="fa-solid fa-bars md:hidden text-[30px] absolute left-[10px] top-[10px]" style="z-index: 1;"></i> -->
+
+    <i id="barr" class="ri-color-filter-ai-line xl:hidden text-[30px] text-[white] absolute left-[10px] top-[0.2%]" style="z-index: 1;"></i>
+       <div id="section-1" class="mt-[10px] relative w-[100%] xl:w-[95%]  xl:ms-[2.5%] sm:w-[100%] h-[auto]    flex flex-col justify-between flex-row" style="  border: px solid black;  ">
+        <!-- <i class="fa-solid fa-bars absolute top-[0px] left-[50%]" id="barr"></i> -->
+        <aside class="xl:w-[20%] xl:h-[740px]  sm:w-[30%] sm:h-[700px]  absolute  hidden xl:block z-50"   id="adi">
+            
 
             <div class="  w-[100%] bg-[#FAFAFA] p-3 h-[70vw] overflow-scroll" id="aaa">
                 <h1 class="font-bold text-2xl">Filters</h1>
@@ -108,7 +168,8 @@
               </div>
         </aside>
   
-        <div id="sec-2"   class="w-[80px] h-[40px] ms-[90%]    ms-[24%] border border-[red]" style=" border: px solid black; border: none;">
+        <div id="sec-2"   class="md:w-[80px]  w-[20%] ps-[10%] sm:flex sm:justify-center sm:items-center ms-[80%] h-[40px] xl:ms-[82%] md:ms-[80%]  md:ms-[24%] border"
+         style=" border: 1px solid black; border: none;">
 
 
 
@@ -120,15 +181,12 @@
     <option value="hl">High To Low</option>
 </select>
       </div>
-                <div id="sec-1" class="md:w-[80%] overflow-scroll ps-[15%] lg:w-[80%] lg:ps-[0%] lg:ms-[25%] w-[100%] sm:w-[100%] sm:ms-[]  sm:w-[100%] sm:ms-[25%]  h-[120vh] mt-[10px]   md:ms-[24%] border border-[red]" style="    border: 1px solid black;  border: none;" id="no">
+                <div id="sec-1" class="  overflow-scroll md:ps-[2%] xl:ps-[0px]   w-[100%] sm:w-[100%] xl:w-[80%] xl:ms-[22%]
+                  h-[120vh] mt-[10px]   border border-[red]" style="    border: 1px solid black; border: none;  " id="no">
                 </div>
-            
 <!-- <input type="text" name="" id="" > -->
         </div>
-
-
 </body>
-
 <script>
     $(document).ready(function(){
         $("#up").click(function(){
@@ -136,7 +194,29 @@
             $("#sec-1").hide()
         })
     })
+
+
+    
 </script>
+
+<script>
+    $(document).ready(function(){
+        $("#barr").click(function(){
+            $("#adi").toggle()
+        })
+    })
+</script>
+
+
+<script>
+    // toggle
+    document.getElementById('toggle').addEventListener('click', () => {
+    const menu = document.getElementById('header2');
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+    });
+    </script>
+
+    
 <script src="js/trolly.js"></script>
 <script src="js/product.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
