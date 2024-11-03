@@ -11,17 +11,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/product.css">
+
 </head>
 
 <body>
+
+
+
+
+
+  <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+    <i class="fa-solid fa-bars ms-1 me-2 xl:hidden block text-white " id="toggle"></i>
+    <div id="logo" class="w-[auto]  xl:w-[12%] h-[100%] flex justify-center items-center ">
+      <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1a" class=""> </a>
+    </div>
+    <div id="sub" class="  [50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
+        <p id="Pp1" class="text-[white]"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+            400020</p>
+    </div>
+    <div id="input" class="w-[250px] md:w-[350px] xl:w-[501px] h-[100%] "
+        style="display: flex; justify-content: center; align-items: center; position: relative;"><i
+            class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
+            id="icon4"></i>
+        <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white;" id="icon5"></i>
+        <input type="text" placeholder=" Search JioMart" class="w-[250px] ps-[10%] text-[white] md:w-[350px] xl:w-[500px]  h-[40px]"
+            style=" border-radius: 30px; background-color: #0c5273; border: none;  " id="input1">
+    </div>
+    <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
+        <p id="carr"></p>
+     <a href="cart.html">   <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i></a>
+    </div>
+    <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden" >
+        <a href="login.html">
+        <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i> </a>
+       <a href="login.html">  <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>  </a>
+    
+    </div>
+</div>
+<div id="header2"  class="w-[100%] xl:h-[50px] hidden xl:block xl:flex" style=" background-color: #0c5273;">
+    <nav class="md:w-[100%] h-[100%] text-[white] bg-[#0c5273] ">
+        <ul class="w-[100%] h-[100%] flex flex-wrap justify-evenly items-center ">
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Groceries</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Home & Lifestyle</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Electronics</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Fashion</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Industrial & Professional Supplies</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Wellness</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">All Categories</a></li>
+        </ul>
+    </nav>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
       <div class="h-[auto] lg:ps-[45px] lg:pe-[45px] ps-[22px] pe-[22px] pt-[0px] pb-[36px] mt-[15px]  flex justify-center">
-        <div class="Loginmain">
+        <div class="Loginmain relative">
           <div class="flex justify-between flex-col sm:flex-row items-center relative">
-            <h1 class="lg:text-[38px] text-[36px] text-[#000] uppercase mb-[12px] tracking-[5px]">Sign in <span class="absolute start-[-30px]"><img src="Assets/Jiomart_LOGO_Icon.png" alt="" id="img1"></span><br><p class="leading-6" id="P1">Verify your mobile number to accsess your <span id="S1">JioMart</span> account</p></h1>
+            <h1 class="  lg:text-[38px] text-[36px] text-[#000] uppercase mb-[12px] tracking-[5px]">Sign in <span class="absolute start-[-30px]">
+
+              <img src="Assets/Jiomart_LOGO_Icon.png" alt=""
+               id="img1" style="width: 70px; height: 70px; "
+                 class="absolute start-[60%] top-[24%]  " ></span>
+                 <br><p class="leading-6" id="P1">
+
+
+                Verify your mobile number to accsess your <span id="S1">JioMart</span> account</p></h1>
           </div>
             <form id="login">
                 <p class="text-[18px] text-[#ED1C24] font-black" id="loginpasstext"></p>
@@ -42,5 +109,14 @@
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="js/login.js"></script>
+
+<script>
+  // toggle
+document.getElementById('toggle').addEventListener('click', () => {
+  const menu = document.getElementById('header2');
+  menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+});
+</script>
+
 
 </html>
