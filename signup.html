@@ -10,41 +10,77 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <style>
+         .signupmain{
+    background-color: #0079ad1a;
+    /* background-image: url(https://img1.picmix.com/output/stamp/normal/8/8/0/4/1004088_d6c46.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    box-shadow: 0px 0px 10px 1px;
+    color: black;
+    width: 450px;
+  }
+
+
+  #sub1{
+            position: relative;
+        }
+        #carr{
+    color: white;
+    padding: 1px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90%;
+    left: 50%;
+    font-weight: bold;
+    background-color: red;
+
+}
+
+  #img2{
+    mix-blend-mode: screen;
+    
+  }
+    </style>
+   
 </head>
 
 <body>
-
-
     <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+
+
         <i class="fa-solid fa-bars ms-1 me-2 xl:hidden block text-white " id="toggle"></i>
         <div id="logo" class="w-[auto] xl:w-[12%] h-[100%] flex justify-center items-center ">
-          <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1" class=""> </a>
+          <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1" class=""></a>
         </div>
         <div id="sub" class="w-[50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
-            <p id="P1" class="text-[white]"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+            <p id="P1" class="text-[white]   p-[5px] rounded-[20px]  hover:bg-[#0C5273] ps-[10px] pe-[10px] cursor-pointer"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
                 400020</p>
         </div>
-        <div id="input" class="w-[250px] md:w-[350px] xl:w-[501px] h-[100%] "
-            style="display: flex; justify-content: center; align-items: center; position: relative;"><i
+        <div id="input" class="w-[250px] md:w-[230px] xl:w-[300px] hidden  lg:w-[301px] h-[100%]  sm:flex justify-center items-center relative"><i
                 class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
                 id="icon4"></i>
-            <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white;" id="icon5"></i>
-            <input type="text" placeholder=" Search JioMart" class="w-[250px] ps-[10%] text-[white] md:w-[350px] xl:w-[500px]  h-[40px]"
-                style=" border-radius: 30px; background-color: #0c5273; border: none;  " id="input1">
+            <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white; cursor: pointer;" id="icon5"></i>
+            <input type="text" placeholder="Search JioMart" class="w-[250px] md:w-[350px] xl:w-[500px]  h-[40px] ps-[20%] text-[white]"
+                style=" border-radius: 30px; background-color: #0c5273; " id="input1">
         </div>
-        <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
+       <a href="cart.html"> <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
             <p id="carr"></p>
-         <a href="cart.html">   <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i></a>
-        </div>
-        <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden" >
-            <a href="login.html">
-            <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i> </a>
-           <a href="login.html">  <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>  </a>
-        
+            <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
+        </div></a>
+      <a href="login.html">  <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden " >
+            <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i></a><a href="login.html">
+            <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p></a>
         </div>
     </div>
     <div id="header2"  class="w-[100%] xl:h-[50px] hidden xl:block xl:flex" style=" background-color: #0c5273;">
@@ -60,25 +96,35 @@
             </ul>
         </nav>
     </div> 
-  
-
-
-
-
-
-
-
-
-
-
-
+    
 
     
       <div class="h-[auto] lg:ps-[45px] lg:pe-[45px] ps-[22px] pe-[22px] pt-[15px] pb-[36px] flex justify-center">
-        <div class="signupmain">
-            <h1 class="lg:text-[25px] text-[36px] text-[darkred] uppercase mb-[12px] tracking-[5px] font-black relative">Create Account</h1>
-             <img src="Assets/Jiomart_LOGO_Icon.png" style="width: 70px; height: 70px;" alt="" id="img2" class="absolute start-[60%] top-[24%]  ">
-            <form action="" id="signup">
+        <div class="signupmain w-[auto] sm:w-[500px]" style="border: px solid black;">
+
+
+
+
+            <div class="flex w-[100%] justify-between items-center "  style="border: px solid black;">
+<div class="  w-[100%]"  style="border: px solid black;">
+
+    <h1 class="lg:text-[25px] text-[14px] sm:text-[24px] text-[#0078AD] uppercase mb-[12px] tracking-[5px] font-black ">Create Account</h1>
+</div>
+<div class=" hidden sm:block"  style="border: px solid black;">
+
+    <img src="Assets/himeshhhh.png" style="width: 70px; height: 70px; " alt="" id="img2"
+    class="  hidden sm:block ">
+
+</div>
+
+    
+</div>
+            
+           
+           
+           
+           
+              <form action="" id="signup">
                 <p class="text-[18px] text-[#ED1C24] font-black" id="s1"></p>
                 <p class="text-[18px] text-[#ED1C24] font-black" id="s2"></p>
                 <label class="block mt-[22px] mb-[5px] text-[16px] text-[#000] font-medium">First Name</label>
@@ -89,9 +135,11 @@
                 <input type="text" id="email">
                 <label class="block mt-[22px] mb-[5px] text-[16px] text-[#000] font-medium">Password</label>
                 <input type="password" id="password">
-                <button id="creat">Creat</button>
+                <!-- <button id="creat">Creat</button> -->
+                 <input type="submit" id="subb">
+               
                 <div class="text-center mt-[22px]">
-                    <a href="login.html" class="text-[18px] text-[red] font-black text-center">Log In</a>
+                    <a href="login.html" class="text-[18px] text-[black]  font-[900]  text-center" id="lgg">LOG IN</a>
                 </div>
             </form>
         </div>
@@ -102,6 +150,7 @@
 </body>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="js/signup.js"></script>
+<script src="js/trolly.js"></script>
 <script>
     // toggle
 document.getElementById('toggle').addEventListener('click', () => {

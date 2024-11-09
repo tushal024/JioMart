@@ -21,6 +21,115 @@
     box-sizing: border-box;
 }
     </style>
+  <style>
+
+    /* From Uiverse.io by Smit-Prajapati */ 
+.checkbox {
+appearance: none;
+width: 17px;
+aspect-ratio: 1;
+border-radius: 4px;
+border: 2px solid rgba(0, 0, 0, 0.377);
+position: relative;
+transition: all 0.2s ease-in-out;
+}
+
+.checkbox::before {
+font-family: "Quicksand", sans-serif;
+position: absolute;
+bottom: -4px;
+left: 1px;
+content: "✔";
+font-size: 20px;
+color: #0078AD;
+transform: scale(0);
+transition: all 0.2s ease-in-out;
+}
+
+.checkbox:checked::before {
+animation: zoom 0.5s ease-in-out;
+transform: scale(1);
+}
+
+@keyframes zoom {
+0% {
+transform: scale(0);
+}
+
+20% {
+transform: scale(1.5);
+}
+
+40% {
+transform: scale(0.5);
+}
+
+50% {
+transform: scale(1);
+}
+
+70% {
+transform: scale(1.2);
+}
+
+90% {
+transform: scale(0.8);
+}
+
+100% {
+transform: scale(1);
+}
+}
+</style>
+    
+<!-- <style>
+    /* Hide the default checkbox */
+.custom-checkbox input {
+    display: none;
+}
+
+/* Style the custom checkmark box */
+.custom-checkbox .checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #297fb979;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    transition: 1s;
+    vertical-align: middle;
+    position: relative;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* When the checkbox is checked, change the background color */
+.custom-checkbox input:checked + .checkmark {
+    background-color: #3498db;
+    border-color: #2980b9;
+    transition: 1s;
+}
+
+/* Add a checkmark symbol when the checkbox is checked */
+.custom-checkbox input:checked + .checkmark::after {
+    content: '✔';
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    color: white;
+    font-size: 14px;
+    transition: 1s;
+}
+
+/* Hover effect for better interactivity */
+.custom-checkbox .checkmark:hover {
+    border-color: gray;
+    
+}
+
+</style>  -->
+
+
+
 </head>
 <body> 
     
@@ -67,9 +176,11 @@
     </div> 
    -->
 
-   <!-- ............................................................................................................................. -->
 
-   <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+
+
+   
+   <!-- <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
 
 
     <i class="fa-solid fa-bars ms-1 me-2 xl:hidden block text-white " id="toggle"></i>
@@ -77,7 +188,7 @@
         <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1" class="">
     </div>
     <div id="sub" class="w-[50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
-        <p id="P1" class="text-[white]"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+        <p id="P1" class="text-[white]   p-[5px] rounded-[20px]  hover:bg-[#0C5273] ps-[10px] pe-[10px] cursor-pointer"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
             400020</p>
     </div>
     <div id="input" class="w-[250px] md:w-[200px] xl:w-[300px] lg:w-[301px] h-[100%] "
@@ -109,9 +220,52 @@
             <li class=" w-full xl:w-[auto] text-center mt-2"><a href="">All Categories</a></li>
         </ul>
     </nav>
+</div>  -->
+
+
+
+   <!-- ............................................................................................................................. -->
+
+   <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+
+
+    <i class="fa-solid fa-bars ms-[20px] me-2 xl:hidden block text-white " id="toggle"></i>
+    <div id="logo" class="w-[auto] xl:w-[12%] h-[100%] flex justify-center items-center ">
+      <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1" class=""></a>
+    </div>
+    <div id="sub" class="w-[50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
+        <p id="P1" class="text-[white]   p-[5px] rounded-[20px]  hover:bg-[#0C5273] ps-[10px] pe-[10px] cursor-pointer"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+            400020</p>
+    </div>
+    <div id="input" class="w-[250px] md:w-[230px] xl:w-[300px] hidden  lg:w-[301px] h-[100%]  sm:flex justify-center items-center relative"><i
+            class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
+            id="icon4"></i>
+        <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white; cursor: pointer;" id="icon5"></i>
+        <input type="text" placeholder="Search JioMart" class="w-[250px] md:w-[350px] xl:w-[500px]  h-[40px] ps-[20%] text-[white]"
+            style=" border-radius: 30px; background-color: #0c5273; " id="input1">
+    </div>
+   <a href="cart.html"> <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
+        <p id="carr"></p>
+        <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
+    </div></a>
+  <a href="login.html">  <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden " >
+        <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i></a><a href="login.html">
+        <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p></a>
+    </div>
+</div>
+<div id="header2"  class="w-[100%] xl:h-[50px] hidden xl:block xl:flex" style=" background-color: #0c5273;">
+    <nav class="md:w-[100%] h-[100%] text-[white] bg-[#0c5273] ">
+        <ul class="w-[100%] h-[100%] flex flex-wrap justify-evenly items-center ">
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Groceries</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Home & Lifestyle</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Electronics</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Fashion</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Industrial & Professional Supplies</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Wellness</a></li>
+            <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">All Categories</a></li>
+        </ul>
+    </nav>
 </div> 
-
-
 
 
    <!-- ............................................................................................................................. -->
@@ -121,68 +275,182 @@
 
     <!-- <i  id="barr" class="fa-solid fa-bars md:hidden text-[30px] absolute left-[10px] top-[10px]" style="z-index: 1;"></i> -->
 
-    <i id="barr" class="ri-color-filter-ai-line xl:hidden text-[30px] text-[white] absolute left-[10px] top-[0.2%]" style="z-index: 1;"></i>
-       <div id="section-1" class="mt-[10px] relative w-[100%] xl:w-[95%]  xl:ms-[2.5%] sm:w-[100%] h-[auto]    flex flex-col justify-between flex-row" style="  border: px solid black;  ">
+    <i id="barr" class="ri-color-filter-ai-line xl:hidden  text-[30px] text-[white] absolute left-[5px] top-[0.2%]" style="z-index: 1;"></i>
+       <div id="section-1" class="mt-[10px] relative w-[100%] xl:w-[95%]  xl:ms-[2.5%] sm:w-[100%] h-[auto]    flex flex-col justify-between flex-row" style="  border: px solid black; border: none;">
         <!-- <i class="fa-solid fa-bars absolute top-[0px] left-[50%]" id="barr"></i> -->
-        <aside class="xl:w-[20%] xl:h-[740px]  sm:w-[30%] sm:h-[700px]  absolute  hidden xl:block z-50"   id="adi">
+        <aside class="xl:w-[20%] xl:h-[740px] h-[auto] w-[200px]  sm:w-[30%] sm:h-[700px]  absolute  hidden xl:block z-50"   id="adi">
             
 
-            <div class="  w-[100%] bg-[#FAFAFA] p-3 h-[70vw] overflow-scroll" id="aaa">
+            <div class="  w-[100%] bg-[#FAFAFA] p-3 h-[70vw] overflow-scroll " id="aaa" >
                 <h1 class="font-bold text-2xl">Filters</h1>
                 <br>
                 <hr>
                 <br>
-                <input type="radio" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="shoes"> Shoes <br>
-                <input type="radio" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="tsert"> T-Sert <br>
-                <input type="radio" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="Goggles"> Goggles <br><br>
+
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="shoes" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>Shoes
+                    <br>
+                </label>
+                <br>
+
+
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="tsert" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>T-Sert
+                    <br>
+                </label>
+                <br>
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="Goggles" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>Goggles                    
+                    <br>
+                </label>
+                <br>
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="Watches" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>Watches                    
+                    <br>
+                </label>
+                <br>
+
+                <!-- <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="shoes"> Shoes <br> -->
+                <!-- <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="tsert"> T-Sert <br> -->
+                <!-- <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " name="tt"  id="Goggles"> Goggles <br><br> -->
                 <hr>
                 <br>
                 <h1 class="font-bold mb-2">Brands</h1>
-                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> AATIKE<br>
-                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> Aarika<br>
-                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> Cute Things<br><br>
-        
-        
+
+
+
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="brand" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>PIRASO                    
+                    <br>
+                </label>
+                <br>
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="brand1" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>EYEBOGLER                    
+                    <br>
+                </label>
+                <br>
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="brand2" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>SPARX                   
+                    <br>
+                </label>
+                <br>
+                <!-- <input type="checkbox" class="checkbox mb-[10px] inline-block"  id="brand" > <span> PIRASO </span> <br> -->
+                <!-- <input type="checkbox" class="checkbox mb-[10px]" > Aarika<br> -->
+                <!-- <input type="checkbox" class="checkbox mb-[10px]" > Cute Things<br><br> -->
+
                 <hr><br>
                 <h1 class="font-bold mb-2">Price</h1>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "  id="up"> Under $30<br>
-                <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "> Above $x30<br><br>
+
+
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="upp" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>Under $500                  
+                    <br>
+
+        </label>
+<br>
+                    <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                        <input type="radio" id="upp1" name="tt" class="checkbox"> 
+                        <span class="checkmark"></span>Under $1000                  
+                        <br>
+                    </label>
+                <!-- <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; "  id="upp"> Under $500<br> -->
+                <!-- <input type="checkbox" style="width: 40px; height: 15px; margin-top: 10px; " id="upp1"> Above $1000<br><br> -->
                 <hr><br>
-                <h1 class="font-bold mb-2">Style</h1>
+                <!-- <h1 class="font-bold mb-2">Style</h1>
                 <span class="flex"> <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "><img src="assets/ei1.svg" alt="" class="mr-2 ms-3"> Boho-Chic</span> <br>
                 <span class="flex"> <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "><img src="assets/ei2.svg" alt="" class="mr-2 ms-3"> Classic Style</span> <br>
                 <span class="flex"> <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "><img src="assets/ei3.svg" alt="" class="mr-2 ms-3"> Casual</span> <br>
                 <span class="flex"> <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "><img src="assets/ei4.svg" alt="" class="mr-2 ms-3"> Formal Style </span><br><br>
-                <hr>
-                <br>
+                <hr> -->
+                <!-- <br> -->
                 <h1 class="font-bold mb-2">Color</h1>
-                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: #000000;"></i> Black <br>
-                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color:pink;"></i> Pink <br>
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="c_black" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>
+                    
+                    <i class="fa-solid fa-circle fa-lg" style="color: #000000;"></i> Black <br>
+               
+                </label>
+<br>
+
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="c_blue" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>
+                    
+                    <i class="fa-solid fa-circle fa-lg" style="color: blue;"></i> Blue <br>
+                  
+                </label>
+
+                <br>
+
+
+                
+                <label class="custom-checkbox ms-[10px] mb-[10px]" style="display: inline-block;">
+                    <input type="radio" id="c_red" name="tt" class="checkbox"> 
+                    <span class="checkmark"></span>
+                    
+                    <i class="fa-solid fa-circle fa-lg" style="color: red;"></i> Red <br> 
+                    <br>
+                </label>
+
+                <!-- <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: #000000;"></i> Black <br> -->
+                <!-- <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color:pink;"></i> Pink <br>
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: skyblue;"></i> Clear <br>
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: blue;"></i> Blue <br>
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: purple;"></i> Purple <br>
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: green;"></i> Green <br>
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: red;"></i> Red <br> 
                 <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: gray;"></i> gray <br>
-                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: yellow;"></i> Yellow <br>
+                <input type="checkbox"  style="width: 40px; height: 15px; margin-top: 10px; "> <i class="fa-solid fa-circle fa-lg" style="color: yellow;"></i> Yellow <br> -->
               </div>
         </aside>
   
-        <div id="sec-2"   class="md:w-[80px]  w-[20%] ps-[10%] sm:flex sm:justify-center sm:items-center ms-[80%] h-[40px] xl:ms-[82%] md:ms-[80%]  md:ms-[24%] border"
-         style=" border: 1px solid black; border: none;">
+        <div id="sec-2"   class=" w-[100%] md:w-[95%] xl:w-[100%] xl:ms-[0px] 
+        md:ms-[2.5%] xl:justify-end  justify-center  w-[100%] ps-[20%] flex
+        
+        md:justify-end      sm:flex sm:justify-center
+        
+        sm:items-center h-[40px] xl:ms-[0%]  border"
+        
+        style=" border: 1px solid rgb(211, 18, 18); border: none;">
+
+         
+
+  
+    <select name="" id="opt" class="md:h-[100%]    w-[160px] md:ms-[30px] ms-[-70px] h-[90%]  border rounded-[7px] ps-[10px] ">
+   
+        <option value="normal" class="text-[14px]">Sorting</option>
+        <option value="lh" class="text-[14px]">Low To High</option>
+        <option value="hl" class="text-[14px]">High To Low</option>
+    
+    </select>
+  
 
 
-
-
-
-<select name="" id="opt" class="md:h-[100%] w-[100px] md:ms-[30px] ms-[-70px] h-[90%]  border rounded-[20px] ps-[10px] ">
-    <option value="normal">Sorting</option>
-    <option value="lh">Low To High</option>
-    <option value="hl">High To Low</option>
-</select>
       </div>
-                <div id="sec-1" class="  overflow-scroll md:ps-[2%] xl:ps-[0px]   w-[100%] sm:w-[100%] xl:w-[80%] xl:ms-[22%]
-                  h-[120vh] mt-[10px]   border border-[red]" style="    border: 1px solid black; border: none;  " id="no">
+   <div id="sec-1" class=" pe-[0px] ps-[10px]  overflow-scroll md:ps-[2%] xl:ps-[0px]  
+    w-[100%] sm:w-[100%] xl:w-[80%] xl:ms-[22%]
+      h-[120vh] mt-[10px]   border border-[red] flex   flex-wrap    sm:justify-between" 
+      style=" border: px solid black; justify-content: center;    border: none;  " id="no">
+
+
                 </div>
 <!-- <input type="text" name="" id="" > -->
         </div>
@@ -215,6 +483,19 @@
     menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
     });
     </script>
+
+
+
+
+
+<script>
+   
+  </script>
+
+
+
+
+
 
     
 <script src="js/trolly.js"></script>

@@ -38,9 +38,7 @@ function view(el) {
     
         <div id="product" class="w-[80%] h-[782px] ml-[120px] mt-[10px]" style="display: flex; justify-content: space-evenly;">
             <div id="1" class="w-[7%] h-[300px]" style="display: flex; flex-direction: column; justify-content: space-evenly;">
-                <div id="sub-1" class="w-[100%] h-[80px]" style=" border-radius: 10px;"></div>
-                <div id="sub-1-2" class="w-[100%] h-[80px]" style="border-radius: 10px;"></div>
-                <div id="sub-1-3" class="w-[100%] h-[80px]" style=" border-radius: 10px;"></div>
+               
             </div>
             <div id="2" class="w-[35%] h-[500px]" style="border-radius: 5px;">
                     <div id="sub-2" class="w-[100%] h-[500px]" style="border-radius: 10px;">
@@ -56,20 +54,7 @@ function view(el) {
                      <h1 id="H2">₹ ${el.price}.00   <span id="S2"> ${el.discount}% off</span></h1>
                      <p id="P3">M.R.P: <span id="S3">₹${el.n_price}.00</span> (Incl. of all taxes)</p>
                     </div>
-                 <div id="sub-3-1" class="w-[100%] h-[120px]" style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
-                    <h1 id="H3">Colour</h1>
-                    <div id="sub-3-1/1" class="w-[180px] h-[50px]" style=" display: flex; justify-content: space-evenly; align-items: center;">
-                            <div id="ro1" class="w-[48px] h-[40px]" style="border: 1px solid black; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
-                                    <div id="ro-1" class="w-[20px] h-[20px]" style="background-color: #f0d9b0; border-radius: 50%;"></div>
-                            </div>
-                            <div id="ro1" class="w-[48px] h-[40px]" style="border: 1px solid black; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
-                                <div id="ro-2" class="w-[20px] h-[20px]" style="background-color: black; border-radius: 50%;"></div>
-                            </div>
-                            <div id="ro1" class="w-[48px] h-[40px]" style="border: 1px solid black; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
-                                <div id="ro-3" class="w-[20px] h-[20px]" style="background-color: blue; border-radius: 50%;"></div>
-                            </div>
-                    </div>
-                 </div>
+                
                  <div id="sub-3-2" class="w-[100%] h-[100px]" style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
                         <h1 id="H4">Size</h1>
                         <div id="size" class="w-[200px] h-[50px]" style=" display: flex; justify-content: space-evenly;  align-items: center;">
@@ -115,7 +100,28 @@ function add_TO_Cart(res) {
         console.log(Res);
         if(Res.length>0){
 
-            alert("noooooooooooo")
+            Swal.fire({
+              
+                icon: "info",
+                html: `
+                 This Product is allready in Your Cart <br>
+            
+                 <a href="cart.html" class="font-[400]  text-[blue]   "  autofocus> 
+                
+                <span  class="underline ">  Go To Cart       <i class="fa-solid fa-truck-fast ms-[10px] pb-[3px]"></i>   </span>
+             
+                  </a>
+                 
+                `,
+                showCloseButton: true,
+                // showCancelButton: true,
+                // focusConfirm: false,
+                confirmButtonText: `
+                  <i class="fa fa-thumbs-up"></i> OK!
+                `,
+                // confirmButtonAriaLabel: "Thumbs up, great!",
+               
+              });
         }
         else{
 
@@ -130,8 +136,16 @@ function add_TO_Cart(res) {
             .then((r)=>{
                 return r.json();
             })
+
+            
             .then((res)=>{
-                alert("ssssssssssssssssss")
+                Swal.fire({
+                    title: "Add In Your Cart!",
+                    text: "You clicked the button!",
+                    icon: "success",
+                    timer: 2000 
+
+                  });
             })
         
         }
@@ -146,4 +160,23 @@ function add_TO_Cart(res) {
    
 
 
-}
+} 
+
+
+
+// color code.........................................................
+
+//<div id="sub-3-1" class="w-[100%] h-[120px]" style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
+//<h1 id="H3">Colour</h1>
+//<div id="sub-3-1/1" class="w-[180px] h-[50px]" style=" display: flex; justify-content: space-evenly; align-items: center;">
+//        <div id="ro1" class="w-[48px] h-[40px]" style="border: 1px solid black; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+//                <div id="ro-1" class="w-[20px] h-[20px]" style="background-color: #f0d9b0; border-radius: 50%;"></div>
+//        </div>
+//        <div id="ro1" class="w-[48px] h-[40px]" style="border: 1px solid black; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+//            <div id="ro-2" class="w-[20px] h-[20px]" style="background-color: black; border-radius: 50%;"></div>
+//        </div>
+//        <div id="ro1" class="w-[48px] h-[40px]" style="border: 1px solid black; border-radius: 10px; display: flex; justify-content: center; align-items: center;">
+//            <div id="ro-3" class="w-[20px] h-[20px]" style="background-color: blue; border-radius: 50%;"></div>
+//        </div>
+//</div>
+//</div>

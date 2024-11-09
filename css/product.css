@@ -35,3 +35,19 @@ ul{
     align-items: center; */
     font-family:helvetica, arial, sans-serif;
 }
+
+#logo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+#sub1:hover{
+    cursor: pointer;
+}
+#sub3{
+    cursor: pointer;
+}
+#sub1:hover #carr{
+    /* background-color: ; */
+    border: 1px solid white;
+}
