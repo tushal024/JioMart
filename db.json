@@ -1,6 +1,41 @@
 {
   "product": [
     {
+      "id": "29",
+      "img": "https://www.jiomart.com/images/product/original/rvp9rz0umz/morden-t55-plus-bluetooth-wireless-smart-watch-sports-activity-tracker-fitness-smart-watch-for-boys-girls-men-women-product-images-orvp9rz0umz-p606763354-0-202403111559.jpg?im=Resize=(360,360)",
+      "type": "watch",
+      "price": 1279,
+      "des": "PIRASO Digital Black Dial Black Strap Watch For Men And Women",
+      "discount": 72,
+      "n_price": 2179,
+      "rate": 3,
+      "brand": "PIRASO",
+      "color": "black"
+    },
+    {
+      "id": "18",
+      "img": "https://www.jiomart.com/images/product/original/rvwhnsrdke/eyebogler-mens-hooded-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvwhnsrdke-0-202302021729.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 999,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 82,
+      "n_price": 1800,
+      "rate": 3,
+      "brand": "EYEBOGLER"
+    },
+    {
+      "id": "33",
+      "img": "https://www.jiomart.com/images/product/original/rvbesipvid/acnos-digital-white-dial-black-strap-watch-for-men-timex-product-images-rvbesipvid-0-202206020050.jpg?im=Resize=(330,410)",
+      "type": "watch",
+      "price": 899,
+      "des": "PIRASO Analog Black Dial Black Strap Watch for Men and Boys",
+      "discount": 82,
+      "n_price": 1279,
+      "rate": 4,
+      "brand": "PIRASO",
+      "color": "black"
+    },
+    {
       "id": "1",
       "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
       "type": "t-shirt",
@@ -18,7 +53,8 @@
       "des": "LZard Men Black Slim Clean Look Stretch Jeans",
       "discount": 87,
       "n_price": 1300,
-      "rate": 4
+      "rate": 4,
+      "color": "black"
     },
     {
       "id": "3",
@@ -27,17 +63,20 @@
       "des": "ANUJ FASHION Men's Cotton Blend Plain Full Sleeves Formal Kurta (Grey-XL)",
       "discount": 84,
       "n_price": 1390,
-      "rate": 3.8
+      "rate": 3.8,
+      "brand": "EYEBOGLE",
+      "color": "red"
     },
     {
-      "id": "4",
-      "img": "https://www.jiomart.com/images/product/original/rvatca5nr7/davidson-aviator-black-sunglasses-men-and-women-product-images-rvatca5nr7-0-202205062349.jpg?im=Resize=(600,750)",
-      "type": "goggles",
-      "price": 249,
-      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
-      "discount": 72,
-      "n_price": 1099,
-      "rate": 3.2
+      "id": "20",
+      "img": "https://www.jiomart.com/images/product/original/rvyadjdn0p/eyebogler-regular-fit-teal-polo-neck-striped-tshirt-product-images-rvyadjdn0p-0-202402121857.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 899,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 88,
+      "n_price": 1299,
+      "rate": 3.4,
+      "brand": "EYELER"
     },
     {
       "id": "5",
@@ -47,7 +86,8 @@
       "des": "ANUJ FASHION Men's Cotton Blend Plain Full Sleeves Formal Kurta (Grey-XL)",
       "discount": 56,
       "n_price": 999,
-      "rate": 3.1
+      "rate": 3.1,
+      "color": "black"
     },
     {
       "id": "6",
@@ -57,7 +97,20 @@
       "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men",
       "discount": 72,
       "n_price": 1499,
-      "rate": 3.4
+      "rate": 3.4,
+      "color": "red"
+    },
+    {
+      "id": "12",
+      "img": "https://www.jiomart.com/images/product/original/rvvuuzr7qf/sparx-navy-running-shoes-men-sm-648-product-images-rvvuuzr7qf-0-202402280002.jpg?im=Resize=(600,750)",
+      "type": "shose",
+      "price": 1799,
+      "des": "Sparx Navy Running Shoes Men SM-648",
+      "discount": 72,
+      "n_price": 2399,
+      "rate": 4.4,
+      "brand": "Sparx",
+      "color": "red"
     },
     {
       "id": "7",
@@ -67,7 +120,18 @@
       "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
       "discount": 48,
       "n_price": 899,
-      "rate": 2.8
+      "rate": 2.8,
+      "color": "bk"
+    },
+    {
+      "id": "30",
+      "img": "https://www.jiomart.com/images/product/original/494421889/fire-boltt-moonwatch-smart-watch-with-36-3-mm-1-43-inch-amoled-display-wireless-charging-metallic-frame-stainless-steel-luxury-strap-complete-health-suite-bluetooth-calling-sports-modes-silver-digital-o494421889-p609470598-0-202407041621.jpeg?im=Resize=(420,420)",
+      "type": "watch",
+      "price": 1979,
+      "des": "Fire-Boltt Moonwatch Smart Watch with 36.3 mm (1.43 inch) Amoled Display",
+      "discount": 72,
+      "n_price": 3179,
+      "rate": 3
     },
     {
       "id": "8",
@@ -77,7 +141,8 @@
       "des": "Forever 99 Polarized Sunglasses For Men UV Protection Aviator Shape Goggles Sunglass",
       "discount": 60,
       "n_price": 899,
-      "rate": 4
+      "rate": 4,
+      "color": "black"
     },
     {
       "id": "9",
@@ -97,7 +162,21 @@
       "des": "Sparx Blue Walking Shoes Men SM-679",
       "discount": 80,
       "n_price": 2300,
-      "rate": 4.1
+      "rate": 4.1,
+      "brand": "Sparx",
+      "color": "blue"
+    },
+    {
+      "id": "31",
+      "img": "https://www.jiomart.com/images/product/original/rv49k4ronc/piraso-day-and-date-working-analog-blue-dial-black-strap-watch-for-men-boys-d-d-f95-blue-black-mesh-designer-product-images-rv49k4ronc-0-202309011003.jpg?im=Resize=(330,410)",
+      "type": "watch",
+      "price": 799,
+      "des": "PIRASO Analog Black Dial Black Strap Watch for Men and Boys",
+      "discount": 62,
+      "n_price": 1179,
+      "rate": 3,
+      "brand": "PIRASO",
+      "color": "black"
     },
     {
       "id": "11",
@@ -107,17 +186,8 @@
       "des": "Ranway Shoe Men's Black-Orange Synthetic Comfortable Lace-Up Sport/Running/Gym Shoes",
       "discount": 82,
       "n_price": 4399,
-      "rate": 4.2
-    },
-    {
-      "id": "12",
-      "img": "https://www.jiomart.com/images/product/original/rvvuuzr7qf/sparx-navy-running-shoes-men-sm-648-product-images-rvvuuzr7qf-0-202402280002.jpg?im=Resize=(600,750)",
-      "type": "shose",
-      "price": 1799,
-      "des": "Sparx Navy Running Shoes Men SM-648",
-      "discount": 72,
-      "n_price": 2399,
-      "rate": 4.4
+      "rate": 4.2,
+      "brand": "Sparx"
     },
     {
       "id": "13",
@@ -127,14 +197,27 @@
       "des": "Sparx Navy Running Shoes Men SM-648",
       "discount": 88,
       "n_price": 1799,
-      "rate": 4.2
+      "rate": 4.2,
+      "brand": "Sparx",
+      "color": "blue"
+    },
+    {
+      "id": "32",
+      "img": "https://www.jiomart.com/images/product/original/rvkol44i1d/acnos-blue-color-luminous-led-display-digital-waterproof-sports-square-led-watch-for-men-and-boys-product-images-rvkol44i1d-0-202310121737.jpg?im=Resize=(330,410)",
+      "type": "watch",
+      "price": 999,
+      "des": "Acnos Blue Color Luminous LED Display Digital Waterproof Sports Square Led Watch For Men and boys",
+      "discount": 78,
+      "n_price": 1279,
+      "rate": 3.5,
+      "color": "blue"
     },
     {
       "id": "14",
       "img": "https://www.jiomart.com/images/product/original/rvflclhn6g/p-r-shoes-men-s-navy-comfortable-versatile-slip-on-loafers-product-images-rvflclhn6g-0-202401180517.jpg?im=Resize=(600,750)",
       "type": "shose",
       "price": 899,
-      "des": "Sparx Navy Running Shoes Men SM-648",
+      "des": "KING WALKER Premium Synthetic Leather Slip on Lofer for men",
       "discount": 88,
       "n_price": 1299,
       "rate": 4.3
@@ -147,7 +230,8 @@
       "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
       "discount": 74,
       "n_price": 800,
-      "rate": 3.5
+      "rate": 3.5,
+      "brand": "EYEBOGLER"
     },
     {
       "id": "16",
@@ -157,7 +241,9 @@
       "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
       "discount": 82,
       "n_price": 1200,
-      "rate": 3.5
+      "rate": 3.5,
+      "brand": "EYEBOGLER",
+      "color": "black"
     },
     {
       "id": "17",
@@ -167,17 +253,8 @@
       "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt",
       "discount": 72,
       "n_price": 1100,
-      "rate": 3.4
-    },
-    {
-      "id": "18",
-      "img": "https://www.jiomart.com/images/product/original/rvwhnsrdke/eyebogler-mens-hooded-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvwhnsrdke-0-202302021729.jpg?im=Resize=(330,410)",
-      "type": "t-shirt",
-      "price": 999,
-      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
-      "discount": 82,
-      "n_price": 1800,
-      "rate": 3
+      "rate": 3.4,
+      "brand": "EYEBOGLER"
     },
     {
       "id": "19",
@@ -187,17 +264,32 @@
       "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
       "discount": 72,
       "n_price": 999,
-      "rate": 3.1
+      "rate": 3.1,
+      "brand": "EYEBOGER"
     },
     {
-      "id": "20",
-      "img": "https://www.jiomart.com/images/product/original/rvyadjdn0p/eyebogler-regular-fit-teal-polo-neck-striped-tshirt-product-images-rvyadjdn0p-0-202402121857.jpg?im=Resize=(330,410)",
+      "id": "34",
+      "img": "https://www.jiomart.com/images/product/original/rvsqndcecq/hala-brand-a-digital-watch-shockproof-multi-functional-automatic-black-color-waterproof-digital-sports-watch-for-men-boys-girls-product-images-rvsqndcecq-0-202209250250.jpg?im=Resize=(330,410)",
+      "type": "watch",
+      "price": 579,
+      "des": "HALA Brand - A Digital Watch Shockproof Multi-Functional Automatic Black Color Waterproof Digital Sports Watch",
+      "discount": 52,
+      "n_price": 899,
+      "rate": 3.5,
+      "color": "black",
+      "brand": "PIRASO"
+    },
+    {
+      "id": "158",
+      "img": "https://www.jiomart.com/images/product/original/rvx0kpftyz/bullmer-trendy-clothing-set-with-oversized-t-shirt-pants-co-ords-for-men-product-images-rvx0kpftyz-0-202407312058.jpg?im=Resize=(330,410)",
       "type": "t-shirt",
-      "price": 899,
+      "price": 359,
       "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
-      "discount": 88,
-      "n_price": 1299,
-      "rate": 3.4
+      "discount": 74,
+      "n_price": 800,
+      "rate": 3.5,
+      "brand": "EYEBOGR",
+      "color": "red"
     },
     {
       "id": "21",
@@ -207,32 +299,164 @@
       "des": "LZard Men Black Slim Clean Look Stretch Jeans",
       "discount": 87,
       "n_price": 1300,
-      "rate": 4
+      "rate": 4,
+      "color": "blue"
+    },
+    {
+      "id": "22",
+      "img": "https://www.jiomart.com/images/product/original/rvxasvcwis/ausk-navy-blue-white-solid-mandarin-collar-full-sleeve-t-shirt-product-images-rvxasvcwis-0-202207230913.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 279,
+      "des": "AUSK Pack of 1 Ausk Blue Men Vest T-Shirt ",
+      "discount": 82,
+      "n_price": 800,
+      "rate": 3,
+      "color": "blue"
+    },
+    {
+      "id": "23",
+      "img": "https://www.jiomart.com/images/product/original/rvajjnh2tb/ausk-navy-blue-white-red-colorblocked-polo-neck-full-sleeve-casual-t-shirt-product-images-rvajjnh2tb-0-202304140242.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 479,
+      "des": "AUSK Pack of 1 Ausk Blue Men Vest T-Shirt ",
+      "discount": 72,
+      "n_price": 980,
+      "rate": 3.5,
+      "color": "blue"
+    },
+    {
+      "id": "60",
+      "img": "https://www.jiomart.com/images/product/original/rvecywgugt/lorenz-two-tone-chain-red-dial-watch-for-men-watch-for-boys-mk-3068k-product-images-rvecywgugt-0-202402181418.jpg?im=Resize=(330,410)",
+      "type": "watch",
+      "price": 579,
+      "des": "HALA Brand - A Digital Watch Shockproof Multi-Functional Automatic Black Color Waterproof Digital Sports Watch",
+      "discount": 52,
+      "n_price": 899,
+      "rate": 3.5,
+      "color": "red"
+    },
+    {
+      "id": "24",
+      "img": "https://www.jiomart.com/images/product/original/rvz6abve6s/ausk-men-s-vest-pack-of-2-product-images-rvz6abve6s-0-202407161714.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 779,
+      "des": "AUSK Pack of 2 Ausk  Men's Vest T-Shirt ",
+      "discount": 72,
+      "n_price": 1190,
+      "rate": 3.5,
+      "color": "blue"
+    },
+    {
+      "id": "25",
+      "img": "https://www.jiomart.com/images/product/original/rvya27qlfe/ausk-solid-black-teal-blue-round-neck-full-sleeve-tshirt-for-men-pack-of-2-product-images-rvya27qlfe-0-202409182046.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 879,
+      "des": "AUSK Pack of 2 Ausk  Men's Vest T-Shirt ",
+      "discount": 72,
+      "n_price": 1090,
+      "rate": 3.5,
+      "color": "blue"
+    },
+    {
+      "id": "26",
+      "img": "https://www.jiomart.com/images/product/original/rvwqr16kso/ausk-printed-full-sleeve-hooded-tshirt-for-men-color-teal-blue-product-images-rvwqr16kso-0-202410111122.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 479,
+      "des": "Ausk Printed Full Sleeve Hooded Tshirt For Men ( Color- Teal Blue ) ",
+      "discount": 62,
+      "n_price": 979,
+      "rate": 3.5,
+      "color": "blue"
+    },
+    {
+      "id": "4",
+      "img": "https://www.jiomart.com/images/product/original/rvatca5nr7/davidson-aviator-black-sunglasses-men-and-women-product-images-rvatca5nr7-0-202205062349.jpg?im=Resize=(600,750)",
+      "type": "goggles",
+      "price": 249,
+      "des": "Forever 99 Polarized & UV Protected Sunglasses For Men Goggles for Men and Women",
+      "discount": 72,
+      "n_price": 1099,
+      "rate": 3.2,
+      "color": "black"
+    },
+    {
+      "id": "27",
+      "img": "https://www.jiomart.com/images/product/original/rvhcthoyk5/ausk-printed-full-sleeve-hooded-tshirt-for-men-color-black-product-images-rvhcthoyk5-0-202410111118.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 479,
+      "des": "Ausk Printed Full Sleeve Hooded Tshirt For Men ( Color- Teal Black ) ",
+      "discount": 62,
+      "n_price": 979,
+      "rate": 3.5,
+      "color": "black"
+    },
+    {
+      "id": "777",
+      "img": "https://www.jiomart.com/images/product/original/rvlxjbkbgc/red-product-product-images-rvlxjbkbgc-0-202207182312.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 799,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4,
+      "color": "red"
+    },
+    {
+      "id": "28",
+      "img": "https://www.jiomart.com/images/product/original/rvgue8vkom/ausk-teal-blue-black-striped-round-neck-full-sleeve-t-shirt-product-images-rvgue8vkom-0-202207140922.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 779,
+      "des": "Ausk Teal Blue & Black Striped Round Neck Full Sleeve T-Shirt",
+      "discount": 72,
+      "n_price": 1179,
+      "rate": 3,
+      "color": "blue"
     }
   ],
   "cart": [
     {
-      "id": "8",
-      "img": "https://www.jiomart.com/images/product/original/rv42clwarq/forever-99-polarized-sunglasses-for-men-uv-protection-aviator-shape-goggles-sunglass-product-images-rv42clwarq-0-202305270710.jpg?im=Resize=(330,410)",
-      "type": "goggles",
-      "price": 278,
-      "des": "Forever 99 Polarized Sunglasses For Men UV Protection Aviator Shape Goggles Sunglass",
-      "discount": 60,
-      "n_price": 899,
+      "id": "2",
+      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
       "rate": 4,
+      "color": "black",
       "quenty": 1
     },
     {
-      "id": "12",
-      "img": "https://www.jiomart.com/images/product/original/rvvuuzr7qf/sparx-navy-running-shoes-men-sm-648-product-images-rvvuuzr7qf-0-202402280002.jpg?im=Resize=(600,750)",
-      "type": "shose",
-      "price": 1799,
-      "des": "Sparx Navy Running Shoes Men SM-648",
+      "id": "29",
+      "img": "https://www.jiomart.com/images/product/original/rvp9rz0umz/morden-t55-plus-bluetooth-wireless-smart-watch-sports-activity-tracker-fitness-smart-watch-for-boys-girls-men-women-product-images-orvp9rz0umz-p606763354-0-202403111559.jpg?im=Resize=(360,360)",
+      "type": "watch",
+      "price": 1279,
+      "des": "PIRASO Digital Black Dial Black Strap Watch For Men And Women",
       "discount": 72,
-      "n_price": 2399,
-      "rate": 4.4,
+      "n_price": 2179,
+      "rate": 3,
+      "brand": "PIRASO",
+      "color": "black",
+      "quenty": 1
+    },
+    {
+      "id": "18",
+      "img": "https://www.jiomart.com/images/product/original/rvwhnsrdke/eyebogler-mens-hooded-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvwhnsrdke-0-202302021729.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 999,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
+      "discount": 82,
+      "n_price": 1800,
+      "rate": 3,
+      "brand": "EYEBOGLER",
       "quenty": 1
     }
   ],
-  "lg_data": []
+  "lg_data": [
+    {
+      "id": "dfa5",
+      "email": "tushaldineshbhai@gmail.com",
+      "pass": "Tushal@@232313"
+    }
+  ]
 }

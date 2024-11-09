@@ -13,44 +13,74 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/product.css">
 
 </head>
 
+<style>
+
+
+#sub1{
+            position: relative;
+        }
+        #carr{
+    color: white;
+    padding: 1px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: -90%;
+    left: 50%;
+    font-weight: bold;
+    background-color: red;
+
+}
+
+  .Loginmain{
+    background-color: #0079ad1a;
+    /* background-image: url(https://img1.picmix.com/output/stamp/normal/8/8/0/4/1004088_d6c46.gif); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    box-shadow: 0px 0px 10px 1px;
+    width: 450px;
+  }
+</style>
+
 <body>
 
-
-
-
-
   <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+
+
     <i class="fa-solid fa-bars ms-1 me-2 xl:hidden block text-white " id="toggle"></i>
-    <div id="logo" class="w-[auto]  xl:w-[12%] h-[100%] flex justify-center items-center ">
-      <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1a" class=""> </a>
+    <div id="logo" class="w-[auto] xl:w-[12%] h-[100%] flex justify-center items-center ">
+      <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img11" class=""></a>    <!-- img1 = img11   -->
     </div>
-    <div id="sub" class="  [50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
-        <p id="Pp1" class="text-[white]"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
-            400020</p>
+    <div id="sub" class="w-[50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center ">
+        <p id="P11" class="text-[white]  p-[5px] rounded-[20px]  hover:bg-[#0C5273] ps-[10px] pe-[10px] cursor-pointer"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+            400020</p> <!-- p1 = p11   -->
     </div>
-    <div id="input" class="w-[250px] md:w-[350px] xl:w-[501px] h-[100%] "
-        style="display: flex; justify-content: center; align-items: center; position: relative;"><i
+    <div id="input" class="w-[250px] md:w-[250px] xl:w-[300px] hidden  lg:w-[301px] h-[100%]  sm:flex justify-center items-center relative"><i
             class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
             id="icon4"></i>
-        <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white;" id="icon5"></i>
-        <input type="text" placeholder=" Search JioMart" class="w-[250px] ps-[10%] text-[white] md:w-[350px] xl:w-[500px]  h-[40px]"
-            style=" border-radius: 30px; background-color: #0c5273; border: none;  " id="input1">
+        <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white; cursor: pointer;" id="icon5"></i>
+        <input type="text" placeholder="Search JioMart" class="w-[250px] md:w-[350px] xl:w-[500px]  h-[40px] ps-[20%] text-[white]"
+            style=" border-radius: 30px; background-color: #0c5273; " id="input1">
     </div>
-    <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
+   <a href="cart.html"> <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
         <p id="carr"></p>
-     <a href="cart.html">   <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i></a>
-    </div>
-    <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden" >
-        <a href="login.html">
-        <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i> </a>
-       <a href="login.html">  <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>  </a>
-    
+        <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
+    </div></a>
+  <a href="login.html">  <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden " >
+        <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i></a><a href="login.html">
+        <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p></a>
     </div>
 </div>
 <div id="header2"  class="w-[100%] xl:h-[50px] hidden xl:block xl:flex" style=" background-color: #0c5273;">
@@ -71,26 +101,20 @@
 
 
 
-
-
-
-
-
-
-      <div class="h-[auto] lg:ps-[45px] lg:pe-[45px] ps-[22px] pe-[22px] pt-[0px] pb-[36px] mt-[15px]  flex justify-center">
-        <div class="Loginmain relative">
+      <div       class="h-[auto] lg:ps-[45px] w-[auto] lg:pe-[45px] ps-[22px] pe-[22px] pt-[0px] pb-[36px] mt-[15px]  flex justify-center">
+        <div class="Loginmain relative w-[auto] sm:w-[500px]" style="border: 5px solid black;" >
           <div class="flex justify-between flex-col sm:flex-row items-center relative">
-            <h1 class="  lg:text-[38px] text-[36px] text-[#000] uppercase mb-[12px] tracking-[5px]">Sign in <span class="absolute start-[-30px]">
+            <h1 class="  lg:text-[38px] text-[36px] text-[red] uppercase mb-[12px] tracking-[5px]">Sign in <span class="absolute start-[-30px]">
 
               <img src="Assets/Jiomart_LOGO_Icon.png" alt=""
                id="img1" style="width: 70px; height: 70px; "
                  class="absolute start-[60%] top-[24%]  " ></span>
-                 <br><p class="leading-6" id="P1">
+                 <br><p class="leading-6 " id="P1">
 
 
                 Verify your mobile number to accsess your <span id="S1">JioMart</span> account</p></h1>
           </div>
-            <form id="login">
+            <form id="login" >
                 <p class="text-[18px] text-[#ED1C24] font-black" id="loginpasstext"></p>
                 <p class="text-[18px] text-[#ED1C24] font-black" id="loginemailtext"></p>
                 <label class="block mt-[22px] mb-[5px] text-[16px] text-[#000]">Email</label>
@@ -99,8 +123,8 @@
                 <input type="password" id="loginpassword">
                 <button id="creat">Login</button>
                 <div class="text-center mt-[22px]">
-                    <a href="index.html" class="text-[14px] text-[#000] text-center font-black">Return to Store</a><br><br>
-                    <a href="signup.html" class="text-[18px] font-black">Create account</a>
+                    <a href="index.html" class="text-[14px] text-[#000] text-center font-black" id="sgg">Return to Store</a><br><br>
+                    <a href="signup.html" class="text-[18px] font-black" id="sgg">Create account</a>
                 </div>
             </form>
         </div>
@@ -118,5 +142,6 @@ document.getElementById('toggle').addEventListener('click', () => {
 });
 </script>
 
+<script src="js/trolly.js"></script>
 
 </html>

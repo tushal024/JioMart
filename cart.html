@@ -12,8 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <style>
@@ -81,59 +85,62 @@ style="border: 1px solid rgba(0, 0, 0, 0.226);" styl="">
 <body>
 
 
-    <div id="header" class="w-[100%] h-[80px]" style="display:flex;justify-content: space-evenly;align-items: center;">
-
-        <div id="logo" class="w-[12%] h-[100%]" style=" display: flex; justify-content: center; align-items: center;">
-            <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1">
+    <div id="header"  class="w-[100%] xl:h-[80px] bg-[#0078ad] flex flex-wrap p-1" style="display:flex;justify-content: space-evenly;align-items: center;">
+        <i class="fa-solid fa-bars ms-1 me-2 xl:hidden block text-white " id="toggle"></i>
+        <div id="logo" class="w-[auto] xl:w-[12%] h-[100%] flex justify-center items-center ">
+          <a href="index.html">  <img src="Assets/Jiomart-logo-ds2.0.svg" alt="" id="img1" class=""> </a>
         </div>
-        <div id="sub" class="w-[19%] h-[100%]"
-            style="display: flex; justify-content: space-between; align-items: center;">
-            <p id="P1"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
+        <div id="sub" class="w-[50%] xl:w-[19%] h-[100%]  hidden xl:flex md:justify-between md:items-center">
+            <p id="P1" class="text-[white]"><i class="fa-solid fa-location-dot" style="color: white;" id="icon1"></i> Deliver to Mumbai
                 400020</p>
         </div>
-        <div id="input" class="w-[501px] h-[100%]"
+        <div id="input" class="w-[250px] md:w-[350px] xl:w-[501px] h-[100%] "
             style="display: flex; justify-content: center; align-items: center; position: relative;"><i
                 class="fa-solid fa-magnifying-glass" style="position: absolute; left: 20px; color: white;"
                 id="icon4"></i>
-            <i class="fa-solid fa-list" style="position: absolute; color: white; left: 470px;" id="icon5"></i>
-            <input type="text" placeholder="           Search JioMart" class="w-[500px] h-[40px]"
-                style=" border-radius: 30px; background-color: #0c5273; " id="input1">
+            <i class="fa-solid fa-list " style="position: absolute;right: 10px; color: white;" id="icon5"></i>
+            <input type="text" placeholder=" Search JioMart" class="w-[250px] ps-[10%] text-[white] md:w-[350px] xl:w-[500px]  h-[40px]"
+                style=" border-radius: 30px; background-color: #0c5273; border: none;  " id="input1">
         </div>
         <div id="sub1" class="w-[6%] h-[100%]" style="display: flex; justify-content: center; align-items: center;">
             <p id="carr"></p>
-            <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i>
+         <a href="cart.html">   <i class="fa-solid fa-cart-shopping" style="color: white;" id="icon2"></i></a>
         </div>
-        <div id="sub3" class="w-[8%] h-[100%]"
-            style=" display: flex; justify-content: space-evenly; align-items: center;">
-            <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i>
-            <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>
+        <div id="sub3" class="w-[20%] md:w-[15%] xl:w-[8%] h-[100%] md:flex justify-evenly items-center hidden" >
+            <a href="login.html">
+            <i class="fa-solid fa-circle-user" style="font-size:29px; color: white;" id="icon3"></i> </a>
+           <a href="login.html">  <p class="" style="font-size: 17px; font-weight: 500; color: white;">Sign In</p>  </a>
+        
         </div>
     </div>
-    <div id="header2" class="w-[100%] h-[50px]" style=" display: flex; background-color: #0c5273;">
-        <nav>
-            <ul>
-                <li><a href="">Groceries</a></li>
-                <li><a href="">Home & Lifestyle</a></li>
-                <li><a href="">Electronics</a></li>
-                <li><a href="">Fashion</a></li>
-                <li><a href="">Industrial & Professional <br> Supplies</a></li>
-                <li><a href="">Wellness</a></li>
-                <li><a href="">All Categories</a></li>
+    <div id="header2"  class="w-[100%] xl:h-[50px] hidden xl:block xl:flex" style=" background-color: #0c5273;">
+        <nav class="md:w-[100%] h-[100%] text-[white] bg-[#0c5273] ">
+            <ul class="w-[100%] h-[100%] flex flex-wrap justify-evenly items-center ">
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Groceries</a></li>
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Home & Lifestyle</a></li>
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Electronics</a></li>
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Fashion</a></li>
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Industrial & Professional Supplies</a></li>
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">Wellness</a></li>
+                <li class=" w-full xl:w-[auto] text-center mt-2"><a href="product.html">All Categories</a></li>
             </ul>
         </nav>
-    </div>
+    </div> 
+  
 
-
-    <div id="c_1" class="w-[90%] h-[auto] m-[auto]" style=" border: px solid black;">
-        <div id="cc_1" class="w-[100%] h-[5%]">
+    <div id="c_1" class="w-[90%] h-[auto] m-[auto] " style=" border: px solid black;">
+        <div id="cc_1" class="w-[100%] h-[5%] " >
 
 
             <h1 class="font-[800] text-[24px] mb-[30px] mt-[30px]">My Cart</h1>
         </div>
-        <div id="cc_2" class="w-[65%] h-[90%] rounded-[20px]" style=" border: 1px solid rgba(0, 0, 0, 0.226);">
+
+<div id="oooo" style="border: px solid red;" class="w-[100%]  xl:flex flex-wrap ">
+
+        <div id="cc_2" class="xl:w-[65%] xl:h-[90%] h-[auto] sm:h-[auto] mb-[50px] rounded-[20px] w-[100%]" style=" border: 1px solid rgba(0, 0, 0, 0.226);">
             <div id="a1" class="w-[100%]   h-[50px] ps-[5%] pe-[5%] pt-[10px] mt-[10px] mb-[20px]">
-                <span class="text-[20px] font-[700]">Scheduled Delivery Basket (<span id="lengt_c"></span>) </span>
-                <span class="text-[20px] font-[700] ms-[40%]" id="total_pr" style="text-decoration: underline;"></span>
+                <span class="xl:text-[20px] font-[700]">Scheduled Delivery Basket (<span id="lengt_c"></span>) </span>
+                <span class="text-[20px] ms-[30px] font-[700] xl:ms-[40%]" id="total_pr" style="text-decoration: underline;"></span>
 
             </div>
 
@@ -181,8 +188,8 @@ style="border: 1px solid rgba(0, 0, 0, 0.226);" styl="">
               -->
 
 
-        </div>
-        <div id="details" class="w-[33%] ms-[2%]   h-[auto]" style="border: px solid black;">
+        </div> 
+        <div id="details" class="xl:w-[33%] ms-[2%]   h-[auto]" style="border: px solid black;">
             <div id="di1" class="w-[100%] h-[100px] rounded-[20px] bg-[#E5F7EE]"
                 style="border: 1px solid rgba(0, 0, 0, 0.226); ">
 
@@ -243,15 +250,16 @@ style="border: 1px solid rgba(0, 0, 0, 0.226);" styl="">
                     </p>
                     <h2 id="fainal_bill" class="" style="color: black;"></h2>
                 </div>
-                <p div id="sapn1"
-                    style="width: 100%; border-bottom: 1px solid rgba(0, 0, 0, 0); display: flex; align-items: center; justify-content: space-between ; padding-left: 190px; color: #00B259; font-weight: 900;">
-                    You Saved  <span id="beni" class="pe-[10%]">  </span></p>
+                <p div id="sapn1" class="ps-[5%]"
+                    style="width: 100%; border-bottom: 1px solid rgba(0, 0, 0, 0); display: flex; align-items: center;
+                     justify-content: space-between ;  color: #00B259; font-weight: 900;">
+                    You Saved  <span id="beni" class="pe-[5%] ]">  </span></p>
                 </div>
                 <button class="w-[100%] border bg-[#0078AD] rounded-[20px] text-[16px] text-[white] font-[600] h-[50px] mt-[14px]">Plce Order</button>
 
 
         </div>
-
+    </div>
 
 
 
@@ -261,4 +269,11 @@ style="border: 1px solid rgba(0, 0, 0, 0.226);" styl="">
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="js/cart.js"></script>
 
+<script>
+    // toggle
+document.getElementById('toggle').addEventListener('click', () => {
+    const menu = document.getElementById('header2');
+    menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+});
+</script>
 </html>

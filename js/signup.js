@@ -1,10 +1,12 @@
 document.querySelector("#signup").addEventListener("submit", (e) => {
     e.preventDefault()
 
+   
+
     var signupemail = document.querySelector("#email").value
     var signuppass = document.querySelector("#password").value
 
-    var vailid = true
+    var vailid = true 
     document.querySelector("#s2").innerHTML = ""
     document.querySelector("#s1").innerHTML = ""
 
@@ -25,10 +27,27 @@ document.querySelector("#signup").addEventListener("submit", (e) => {
     var obj = {
         email: signupemail,
         pass: signuppass,
+
+                  
+  
     };
+  
+    
 
     if (vailid == true) {
-        fetch(`https://boat-api-1.onrender.com/signupdata`, {
+
+        // Swal.fire({
+        //     title: "SignUp Success...",
+        //     text: "You clicked the button!",
+        //     icon: "success"
+        //   });
+        alert("Success..............")
+    
+       window.location.reload()
+
+      
+
+        fetch(`http://localhost:3000/lg_data`, {
             method: "POST",
             headers: {
                 "content-Type": "application/json"
@@ -44,6 +63,9 @@ document.querySelector("#signup").addEventListener("submit", (e) => {
             .catch((err) => {
                 console.log(err);
             })
+
+  
+
     }
 
 

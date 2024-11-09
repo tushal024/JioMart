@@ -78,3 +78,24 @@ body{
     width: 40px;
     height: 40px;
 }
+#subb{
+    width: 100%;
+    /* margin-left: 2.5%; */
+    background-color: #0f3cc9;
+
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    /* text-align: center; */
+    /* margin-left: 20%; */
+    margin-top: 20px;
+    cursor: pointer;
+}
+#subb:hover{
+    transform: scale(0.95);
+    transition: 0.6s;
+}
+#lgg:hover{
+    text-decoration: underline;
+    
+}
