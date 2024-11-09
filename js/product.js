@@ -343,15 +343,11 @@ function s3(arr) {
 
 // SORT.....///////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
+
 function op1(arr) {
-
-
-
-
-
-
-
-    
+  
     let opt1 = document.getElementById("opt")
     opt1.addEventListener("change", () => {
 

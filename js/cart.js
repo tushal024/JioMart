@@ -42,7 +42,7 @@ let benefit= a-ts
 
         
         return `
-            <div id="cart1" class="w-[100%] h-[auto]  mb-[20px]" style="border: px solid black;">
+        <div id="cart1" class="w-[100%] h-[auto]  mb-[20px]" style="border: px solid black;">
 
             <div id="cr1" class="w-[100%] h-[80%]  flex" style="border: px solid black;">
                 <div id="cr_img" class="xl:w-[25%] w-[40%] xl:h-[100%] pt-[7%] flex justify-center items-center" style="border: px solid black;">
