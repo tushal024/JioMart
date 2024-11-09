@@ -415,18 +415,6 @@
   ],
   "cart": [
     {
-      "id": "2",
-      "img": "https://www.jiomart.com/images/product/original/rvwye6y58s/aadi-men-s-black-mesh-outdoor-casual-shoes-product-images-rvwye6y58s-0-202304210923.jpg?im=Resize=(330,410)",
-      "type": "shose",
-      "price": 319,
-      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
-      "discount": 87,
-      "n_price": 1300,
-      "rate": 4,
-      "color": "black",
-      "quenty": 1
-    },
-    {
       "id": "29",
       "img": "https://www.jiomart.com/images/product/original/rvp9rz0umz/morden-t55-plus-bluetooth-wireless-smart-watch-sports-activity-tracker-fitness-smart-watch-for-boys-girls-men-women-product-images-orvp9rz0umz-p606763354-0-202403111559.jpg?im=Resize=(360,360)",
       "type": "watch",
@@ -437,19 +425,7 @@
       "rate": 3,
       "brand": "PIRASO",
       "color": "black",
-      "quenty": 1
-    },
-    {
-      "id": "18",
-      "img": "https://www.jiomart.com/images/product/original/rvwhnsrdke/eyebogler-mens-hooded-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvwhnsrdke-0-202302021729.jpg?im=Resize=(330,410)",
-      "type": "t-shirt",
-      "price": 999,
-      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
-      "discount": 82,
-      "n_price": 1800,
-      "rate": 3,
-      "brand": "EYEBOGLER",
-      "quenty": 1
+      "quenty": 3
     }
   ],
   "lg_data": [
