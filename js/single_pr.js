@@ -53,23 +53,24 @@ function view(el) {
  style="border: px solid black;">
                     <div id="sub-3" class="w-[100%] md:h-[180px]" style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
                      <p id="P2">BULLMER</p>
-                     <h1 id="H1">PIRASO Digital Black Dial Black Strap Watch For Men And Women</h1>
+                     <h1 id="H1">${el.des}</h1>
                      <span id="S1" class=" ">
                         
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
                         <i class="fa-regular fa-star"></i> <span id="S4">${el.rate}</span>  
                         
-                        <i class="fa-regular fa-heart   text-[20px] ms-[37%] xl:ms-[70%] " style="color: black; cursor: pointer;"></i> &nbsp; 
+                        <i class="fa-regular fa-heart   text-[20px] ms-[37%] xl:ms-[55%] " style="color: black; cursor: pointer;"></i> &nbsp; 
                         <i class="fa-solid fa-share-nodes   text-[20px]   " style="color: black; cursor: pointer;"></i> 
                         
                         </span>
 
                      <h1 id="H2" class="">₹ ${el.price}.00   <span id="S2" class=" ms-[10px]"> $${el.discount}% off</span></h1>
                      <p id="P3">M.R.P: <span id="S3">₹${el.n_price}.00</span> (Incl. of all taxes)</p>
+                  
                     </div>
                 
-              <div id="sub-3-2" class="w-[100%] md:h-[100px]" style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
+              <div id="sub-3-2" class="w-[100%] md:h-[100px]"  style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
                         <h1 id="H4">Size</h1>
                         <div id="size" class="w-[200px] h-[50px]" style=" display: flex; justify-content: space-evenly;  align-items: center;">
                             <div id="si1" class="w-[39px] h-[26px]" style=" cursor: pointer; border: 1px solid black; border-radius: 20px; text-align: center;"><b>S</b></div>
