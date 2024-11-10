@@ -57,7 +57,7 @@
       "color": "black"
     },
     {
-      "id": "3",
+      "id": "2500",
       "img": "https://www.jiomart.com/images/product/original/rvsbp2gt3b/eyebogler-pink-tshirts-men-tshirt-tshirt-for-men-tshirt-mens-tshirt-men-s-polo-neck-regular-fit-half-sleeves-colorblocked-t-shirt-product-images-rvsbp2gt3b-0-202402121853.jpg?im=Resize=(330,410)",
       "price": 229,
       "des": "ANUJ FASHION Men's Cotton Blend Plain Full Sleeves Formal Kurta (Grey-XL)",
@@ -66,6 +66,17 @@
       "rate": 3.8,
       "brand": "EYEBOGLE",
       "color": "red"
+    },
+    {
+      "id": "42",
+      "img": "https://www.jiomart.com/images/product/original/rvejbbzoe4/fortiva-mustang-white-running-shoe-daily-wear-shoe-walking-shoe-for-men-product-images-rvejbbzoe4-0-202310081358.jpg?im=Resize=(330,410)",
+      "type": "shose",
+      "price": 319,
+      "des": "LZard Men Black Slim Clean Look Stretch Jeans",
+      "discount": 87,
+      "n_price": 1300,
+      "rate": 4,
+      "color": "black"
     },
     {
       "id": "20",
@@ -425,6 +436,18 @@
       "rate": 3,
       "brand": "PIRASO",
       "color": "black",
+      "quenty": 7
+    },
+    {
+      "id": "11",
+      "img": "https://www.jiomart.com/images/product/original/rvipftxg3s/sparx-grey-running-shoes-men-sm-648-product-images-rvipftxg3s-0-202402280000.jpg?im=Resize=(600,750)",
+      "type": "shose",
+      "price": 2299,
+      "des": "Ranway Shoe Men's Black-Orange Synthetic Comfortable Lace-Up Sport/Running/Gym Shoes",
+      "discount": 82,
+      "n_price": 4399,
+      "rate": 4.2,
+      "brand": "Sparx",
       "quenty": 3
     }
   ],
