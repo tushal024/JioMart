@@ -38,6 +38,7 @@ let benefit= a-ts
 
         document.getElementById("discount_fn").innerHTML= `₹${ts}.00`
          document.getElementById("fainal_bill").innerHTML= `₹${fb}.00`
+             document.getElementById("fi_bill").innerHTML= `₹${fb}.00`
          document.getElementById("beni").innerHTML= `₹${benefit}`
 
         
@@ -68,14 +69,14 @@ let benefit= a-ts
             <div id="cr2" class="w-[100%] h-[20%] flex justify-end items-center" style="border: px solid black;">
                 <div id="d_i " class="w-[120px] h-[85%] me-[4%] flex justify-center items-center " style=" border: px solid black;">
                     <div id="dec" onclick="inc(${el.quenty},${el.id},'remove')"  class="w-[30%] h-[100%] flex justify-center items-center" style=" border: px solid black;">
-                        <i class="fa-solid fa-minus text-[16px] rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
+                        <i class="fa-solid fa-minus text-[16px]  cursor-pointer rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
                     </div>
                     <div     id="inc" class="w-[30%] h-[100%]   flex justify-center items-center" style=" border: px solid black;">
                          
                         <input type="text" value="${el.quenty}" disabled   class="text-[20px] w-[10px]">
                     </div>
                     <div onclick="inc(${el.quenty},${el.id}, 'add')"   id="inc" class="w-[30%] h-[100%] flex justify-center items-center" style=" border: px solid black;">
-                        <i class="fa-solid fa-plus text-[16px] rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
+                        <i class="fa-solid fa-plus text-[16px]  cursor-pointer rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
                     </div>
                 </div>
                 <button onclick="dd(${el.id})"> <i class="fa-regular fa-trash-can text-[20px] me-[50px]"></i></button>
@@ -137,11 +138,17 @@ function dd(id) {
         })
 }
 
+// let check_out = require('js/login.js')
 
-
-
-
-
+// console.log(window.check_out);
+// document.getElementById("check_on").addEventListener("click",()=>{
+//     if(check_out == true){
+//         alert("GO TO PAYMENT")
+//     }
+//     else{
+//         alert("First LOGIN NOW")
+//     }
+// })
 
 
 
