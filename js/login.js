@@ -1,5 +1,10 @@
 var kk = true
 var ans = []
+//   window.check_out = false
+
+
+
+
 document.querySelector("#login").addEventListener("submit", (h) => {
     h.preventDefault();
 
@@ -52,6 +57,13 @@ document.querySelector("#login").addEventListener("submit", (h) => {
                     icon: "success"
                 });
 
+                // check_out = true;
+
+
+
+
+
+
             } else {
                 Swal.fire({
                     icon: "error",
@@ -59,6 +71,9 @@ document.querySelector("#login").addEventListener("submit", (h) => {
                     text: "Something went wrong!",
                     footer: '<a href="#">Why do I have this issue?</a>'
                 })
+                check_out = false;
+
+
             }
         }
 
@@ -68,3 +83,16 @@ document.querySelector("#login").addEventListener("submit", (h) => {
 
     
 })
+
+
+
+// document.getElementById("check_on").addEventListener("click",()=>{
+//     if(check_out == true){
+//         alert("GO TO PAYMENT")
+//     }
+//     else{
+//         alert("First LOGIN NOW")
+//     }
+// })
+
+

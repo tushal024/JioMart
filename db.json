@@ -426,29 +426,16 @@
   ],
   "cart": [
     {
-      "id": "29",
-      "img": "https://www.jiomart.com/images/product/original/rvp9rz0umz/morden-t55-plus-bluetooth-wireless-smart-watch-sports-activity-tracker-fitness-smart-watch-for-boys-girls-men-women-product-images-orvp9rz0umz-p606763354-0-202403111559.jpg?im=Resize=(360,360)",
-      "type": "watch",
-      "price": 1279,
-      "des": "PIRASO Digital Black Dial Black Strap Watch For Men And Women",
-      "discount": 72,
-      "n_price": 2179,
-      "rate": 3,
-      "brand": "PIRASO",
-      "color": "black",
-      "quenty": 7
-    },
-    {
-      "id": "11",
-      "img": "https://www.jiomart.com/images/product/original/rvipftxg3s/sparx-grey-running-shoes-men-sm-648-product-images-rvipftxg3s-0-202402280000.jpg?im=Resize=(600,750)",
-      "type": "shose",
-      "price": 2299,
-      "des": "Ranway Shoe Men's Black-Orange Synthetic Comfortable Lace-Up Sport/Running/Gym Shoes",
+      "id": "18",
+      "img": "https://www.jiomart.com/images/product/original/rvwhnsrdke/eyebogler-mens-hooded-neck-regular-fit-full-length-sleeve-t-shirt-product-images-rvwhnsrdke-0-202302021729.jpg?im=Resize=(330,410)",
+      "type": "t-shirt",
+      "price": 999,
+      "des": "EYEBOGLER Mens Round Neck | Regular Fit |Full-length Sleeve T-Shirt ",
       "discount": 82,
-      "n_price": 4399,
-      "rate": 4.2,
-      "brand": "Sparx",
-      "quenty": 3
+      "n_price": 1800,
+      "rate": 3,
+      "brand": "EYEBOGLER",
+      "quenty": 1
     }
   ],
   "lg_data": [
@@ -456,6 +443,11 @@
       "id": "dfa5",
       "email": "tushaldineshbhai@gmail.com",
       "pass": "Tushal@@232313"
+    },
+    {
+      "id": "5719",
+      "email": "nitin@gmail.com",
+      "pass": "Nitin@!23"
     }
   ]
 }
