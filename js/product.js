@@ -1,5 +1,5 @@
 
-fetch(`http://localhost:3000/product`)
+fetch(`https://jioapi-ppe7.onrender.com/product`)
     .then((r) => {
         return r.json();
     })

@@ -5,8 +5,10 @@ var ans = []
 
 
 
+
 document.querySelector("#login").addEventListener("submit", (h) => {
     h.preventDefault();
+
 
     var loginemail = document.getElementById("loginemail").value
     var loginpass = document.getElementById("loginpassword").value
@@ -30,7 +32,7 @@ document.querySelector("#login").addEventListener("submit", (h) => {
 
     if(kk == true)
     {
-        fetch(`http://localhost:3000/lg_data`)
+        fetch(`https://jioapi-ppe7.onrender.com/lg_data`)
         .then((re)=>{
             return re.json()
         }).then((res)=>{
@@ -51,6 +53,7 @@ document.querySelector("#login").addEventListener("submit", (h) => {
                 }
              })
             if (ans.length > 0) {
+            
                 Swal.fire({
                     title: "Log In Successful...!",
                     text: "You clicked the button!",
