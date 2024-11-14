@@ -57,15 +57,15 @@ document.querySelector("#login").addEventListener("submit", (h) => {
                 Swal.fire({
                     title: "Log In Successful...!",
                     text: "You clicked the button!",
-                    icon: "success"
+                    icon: "success",
+                    html: `
+                  
+                    <a href="index.html" class="text-[blue] underline" autofocus>Go To Shop Now</a>,
+                   
+                  `
                 });
 
                 // check_out = true;
-
-
-
-
-
 
             } else {
                 Swal.fire({
