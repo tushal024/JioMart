@@ -6,7 +6,7 @@ function fun() {
     console.log(id);
 
 
-    fetch(`http://localhost:3000/product/${id}`)
+    fetch(`https://jioapi-ppe7.onrender.com/product/${id}`)
         .then((r) => {
             return r.json();
         })
@@ -36,7 +36,7 @@ function fun() {
 function view(el) {
     return `
     
-        <div id="product" class="  w-[100%] md:w-[90%] xl:w-[80%] xl:ms-[10%] h-[auto] md:ms-[5%] mt-[10px] flex justify-evenly md:flex-row   flex-col" style=" border: px solid black;">
+        <div id="product" class="  w-[100%] h-[auto] md:w-[90%] xl:w-[80%] xl:ms-[10%] h-[auto] md:ms-[5%] mt-[10px] flex justify-evenly md:flex-row   flex-col" style=" border: px solid black;">
            
             <div id="2w" class="w-[90%] ms-[5%] md:ms-[0px] h-[450px] p-[0px]  md:w-[50%] md:h-[500px] flex flex-wrap justify-center" 
             style="border-radius: 5px; border: px solid rgb(0, 17, 255); ">
@@ -49,7 +49,7 @@ function view(el) {
                 <button id="add"  >Add to Cart</button>
             </div>
 
-  <div id="3w" class="  w-[100%] h-[auto]  ps-[10px] pe-[10px]  mt-[80px] md:mt-[0px]   md:w-[55%] md:h-[782px]"
+  <div id="3w" class="  w-[100%] h-[auto]  ps-[10px] pe-[10px]  mt-[80px] md:mt-[0px]   md:w-[55%] md:h-[auto]"
  style="border: px solid black;">
                     <div id="sub-3" class="w-[100%] md:h-[180px]" style="border: 1px solid rgb(205, 198, 198); border-top: none; border-left: none; border-right: none;">
                      <p id="P2">BULLMER</p>
@@ -106,7 +106,7 @@ fun()
 
 function add_TO_Cart(res) {
 
-    fetch( `http://localhost:3000/cart?id=${res.id}`)
+    fetch( `https://jioapi-ppe7.onrender.com/cart?id=${res.id}`)
     .then((r)=>{
         return r.json();
 
@@ -140,7 +140,7 @@ function add_TO_Cart(res) {
         }
         else{
 
-            fetch(`http://localhost:3000/cart`, {
+            fetch(`https://jioapi-ppe7.onrender.com/cart`, {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"

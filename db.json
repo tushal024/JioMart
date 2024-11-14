@@ -436,6 +436,30 @@
       "rate": 3,
       "brand": "EYEBOGLER",
       "quenty": 1
+    },
+    {
+      "id": "29",
+      "img": "https://www.jiomart.com/images/product/original/rvp9rz0umz/morden-t55-plus-bluetooth-wireless-smart-watch-sports-activity-tracker-fitness-smart-watch-for-boys-girls-men-women-product-images-orvp9rz0umz-p606763354-0-202403111559.jpg?im=Resize=(360,360)",
+      "type": "watch",
+      "price": 1279,
+      "des": "PIRASO Digital Black Dial Black Strap Watch For Men And Women",
+      "discount": 72,
+      "n_price": 2179,
+      "rate": 3,
+      "brand": "PIRASO",
+      "color": "black",
+      "quenty": 1
+    },
+    {
+      "id": "1",
+      "img": "https://www.jiomart.com/images/product/original/rvwehcyaml/glito-green-boxer-printed-hoodies-sweatshirt-for-men-product-images-rvwehcyaml-0-202409041857.jpg?im=Resize=(600,750)",
+      "type": "t-shirt",
+      "price": 359,
+      "des": "Glito Green Boxer Printed hoodies sweatshirt for men",
+      "discount": 74,
+      "n_price": 7800,
+      "rate": 3.5,
+      "quenty": 1
     }
   ],
   "lg_data": [

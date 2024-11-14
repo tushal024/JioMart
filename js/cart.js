@@ -1,4 +1,4 @@
-fetch(`http://localhost:3000/cart`)
+fetch(`https://jioapi-ppe7.onrender.com/cart`)
     .then((r) => {
         return r.json();
     })
@@ -69,17 +69,17 @@ let benefit= a-ts
             <div id="cr2" class="w-[100%] h-[20%] flex justify-end items-center" style="border: px solid black;">
                 <div id="d_i " class="w-[120px] h-[85%] me-[4%] flex justify-center items-center " style=" border: px solid black;">
                     <div id="dec" onclick="inc(${el.quenty},${el.id},'remove')"  class="w-[30%] h-[100%] flex justify-center items-center" style=" border: px solid black;">
-                        <i class="fa-solid fa-minus text-[16px]  cursor-pointer rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
+                        <i  id="ohhi" class="fa-solid fa-minus text-[16px]  cursor-pointer rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
                     </div>
                     <div     id="inc" class="w-[30%] h-[100%]   flex justify-center items-center" style=" border: px solid black;">
                          
-                        <input type="text" value="${el.quenty}" disabled   class="text-[20px] w-[10px]">
+                        <input type="text" value="${el.quenty}" disabled   class="text-[20px] w-[14px]">
                     </div>
-                    <div onclick="inc(${el.quenty},${el.id}, 'add')"   id="inc" class="w-[30%] h-[100%] flex justify-center items-center" style=" border: px solid black;">
-                        <i class="fa-solid fa-plus text-[16px]  cursor-pointer rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
+                    <div onclick="inc(${el.quenty},${el.id}, 'add')"   id="inc" class=" w-[30%] h-[100%] flex justify-center items-center" style=" border: px solid black;">
+                        <i id="ohhi" class="fa-solid fa-plus text-[16px]  cursor-pointer rounded-[50%] p-[5px]" style="border: 1px solid black;"></i>
                     </div>
                 </div>
-                <button onclick="dd(${el.id})"> <i class="fa-regular fa-trash-can text-[20px] me-[50px]"></i></button>
+                <button onclick="dd(${el.id})"> <i   class="fa-regular fa-trash-can text-[20px] me-[50px]" id="dd_icon"></i></button>
             </div>
         </div>
         <hr class="w-[90%] m-[auto] mt-[10px]">
@@ -94,22 +94,25 @@ function inc(q, id, c) {
     let a = q
     if (c == 'remove') {
         a = a - 1
+        window.location.reload()
 
         if(a <= 0){
-            fetch(`http://localhost:3000/cart/${id}`, {
+            fetch(`https://jioapi-ppe7.onrender.com/cart/${id}`, {
                 method: "DELETE",
             })
                 .then((res) => {
                     return res.json();
                 })
+                window.location.reload()
 
         }
     }
     else if (c == 'add') {
         a = a + 1
+        window.location.reload()
     }
 
-    fetch(`http://localhost:3000/cart/${id}`, {
+    fetch(`https://jioapi-ppe7.onrender.com/cart/${id}`, {
         method: "PATCH",
         headers: {
             "content-type": "application/json"
@@ -126,16 +129,19 @@ function inc(q, id, c) {
             console.log(er);
 
         })
+        window.location.reload()
 }
 
 function dd(id) {
 
-    fetch(`http://localhost:3000/cart/${id}`, {
+    fetch(`https://jioapi-ppe7.onrender.com/cart/${id}`, {
         method: "DELETE",
     })
         .then((res) => {
             return res.json();
         })
+
+        window.location.reload()
 }
 
 // let check_out = require('js/login.js')

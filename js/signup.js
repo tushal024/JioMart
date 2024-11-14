@@ -41,13 +41,13 @@ document.querySelector("#signup").addEventListener("submit", (e) => {
         //     text: "You clicked the button!",
         //     icon: "success"
         //   });
-        alert("Success..............")
+        alert(" Signup Success..............")
     
        window.location.reload()
 
       
 
-        fetch(`http://localhost:3000/lg_data`, {
+        fetch(`https://jioapi-ppe7.onrender.com/lg_data`, {
             method: "POST",
             headers: {
                 "content-Type": "application/json"

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JioMart</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/product.css">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+        <!-- <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
 
         <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
@@ -84,12 +88,133 @@
             /* border: 2px solid black; */
             border-radius: 20px;
         }
+
+        #swiper_11{
+            /* z-index: -1; */
+            opacity: 0;
+
+        }
    
    
 </style>
+
+
+
+<title>Document</title>
+<style>
+     .mainss {
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            display: flex;
+            z-index: 1 !important;
+            justify-content: center;
+            align-items: center;
+            background-color: skyblue;
+
+        }
+     
+    .loader {
+    animation: rotate 1s infinite;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .loader:before,
+  .loader:after {
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .loader:before {
+    animation: ball1 1s infinite;
+    background-color: #cb2025;
+    box-shadow: 30px 0 0 #f8b334;
+    margin-bottom: 10px;
+  }
+  
+  .loader:after {
+    animation: ball2 1s infinite;
+    background-color: #00a096;
+    box-shadow: 30px 0 0 #97bf0d;
+  }
+  
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg) scale(0.8);
+      -moz-transform: rotate(0deg) scale(0.8);
+    }
+  
+    50% {
+      -webkit-transform: rotate(360deg) scale(1.2);
+      -moz-transform: rotate(360deg) scale(1.2);
+    }
+  
+    100% {
+      -webkit-transform: rotate(720deg) scale(0.8);
+      -moz-transform: rotate(720deg) scale(0.8);
+    }
+  }
+  
+  @keyframes ball1 {
+    0% {
+      box-shadow: 30px 0 0 #f8b334;
+    }
+  
+    50% {
+      box-shadow: 0 0 0 #f8b334;
+      margin-bottom: 0;
+      -webkit-transform: translate(15px,15px);
+      -moz-transform: translate(15px, 15px);
+    }
+  
+    100% {
+      box-shadow: 30px 0 0 #f8b334;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @keyframes ball2 {
+    0% {
+      box-shadow: 30px 0 0 #97bf0d;
+    }
+  
+    50% {
+      box-shadow: 0 0 0 #97bf0d;
+      margin-top: -20px;
+      -webkit-transform: translate(15px,15px);
+      -moz-transform: translate(15px, 15px);
+    }
+  
+    100% {
+      box-shadow: 30px 0 0 #97bf0d;
+      margin-top: 0;
+    }
+  }
+</style>
+
+
 </head>
 
 <body>
+
+
+
+
+<!-- loader.......................................................................................... -->
+
+<div class="mainss">
+    <!-- <div class="loader">
+    </div> -->
+    <div class="loader"></div>
+</div>
+
+
+
+
 
     <!-- <i class="fa-solid fa-up-long ar"></i> -->
     <i class="fa-solid fa-angles-up " id="arrow"></i>
@@ -151,9 +276,9 @@
 
 
  <!-- Swiper -->
- <a href="product.html"><div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">   <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1730999745_Fem_Hygiene_Care.jpg?im=Resize=(768,448)"  class="w-[100%] h-[100%]" alt=""></div>
+ <a href="product.html"><div class="swiper mySwiper"   id="swiper_11">
+    <div class="swiper-wrapper" >
+      <div class="swiper-slide" >   <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1730999745_Fem_Hygiene_Care.jpg?im=Resize=(768,448)"  class="w-[100%] h-[100%]" alt=""></div>
       <div class="swiper-slide">   <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1730743370_Apple_iPhone_16.jpg?im=Resize=(768,448)"  class="w-[100%] h-[100%]" alt=""></div>
       <div class="swiper-slide">   <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1730267282_Luggage_.jpg?im=Resize=(768,448)"  class="w-[100%] h-[100%]" alt=""></div>
       <div class="swiper-slide">   <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1730802505_Childrens_Day_Collection.jpg?im=Resize=(768,448)"  class="w-[100%] h-[100%]" alt=""></div>
@@ -244,13 +369,13 @@
             <div id="img1"></div>
 
             <div id="text">
-                <h1>Shree Misthan Kaju katali 400g-200g </h1>
-                <h2>$249.00</h2>
+                <h1>Aadi Men's Black Mesh Running Sport Shoes</h1>
+                <h2>$899.00</h2>
                 <br>
                 <span>
-                    <p id="p1">$520.00</p>
+                    <p id="p1">$1220.00</p>
 
-                    <p>52% OFF</p>
+                    <p>42% OFF</p>
                 </span>
 
                 <div id="button">
@@ -271,13 +396,13 @@
             <div id="img2"></div>
 
             <div id="text">
-                <h1>Shree Misthan Kaju katali 400g-200g </h1>
-                <h2>$249.00</h2>
+                <h1>BTW Rasgulla 1 Kg (Rasagulla)</h1>
+                <h2>$149.00</h2>
                 <br>
                 <span>
-                    <p id="p1">$520.00</p>
+                    <p id="p1">$220.00</p>
 
-                    <p>52% OFF</p>
+                    <p>62% OFF</p>
                 </span>
 
                 <div id="button">
@@ -298,13 +423,13 @@
             <div id="img3"></div>
 
             <div id="text">
-                <h1>Shree Misthan Kaju katali 400g-200g </h1>
-                <h2>$249.00</h2>
+                <h1>Indiyum Kaju Barfi 400g (200g X 2) </h1>
+                <h2>$649.00</h2>
                 <br>
                 <span>
-                    <p id="p1">$520.00</p>
+                    <p id="p1">$1999.00</p>
 
-                    <p>52% OFF</p>
+                    <p>32% OFF</p>
                 </span>
 
                 <div id="button">
@@ -325,13 +450,13 @@
             <div id="img4"></div>
 
             <div id="text">
-                <h1>Shree Misthan Kaju katali 400g-200g </h1>
-                <h2>$249.00</h2>
+                <h1>Fabflee Women Pure Cotton Top</h1>
+                <h2>$399.00</h2>
                 <br>
                 <span>
-                    <p id="p1">$520.00</p>
+                    <p id="p1">$599.00</p>
 
-                    <p>52% OFF</p>
+                    <p>40% OFF</p>
                 </span>
 
                 <div id="button">
@@ -352,11 +477,11 @@
             <div id="img5"></div>
 
             <div id="text">
-                <h1>Shree Misthan Kaju katali 400g-200g </h1>
-                <h2>$249.00</h2>
+                <h1>Despo Armor Airpods 2nd & 1st Generation</h1>
+                <h2>$1299.00</h2>
                 <br>
                 <span>
-                    <p id="p1">$520.00</p>
+                    <p id="p1">$1600.00</p>
 
                     <p>52% OFF</p>
                 </span>
@@ -1389,6 +1514,29 @@
             }
         })
     })
+</script>
+
+
+
+<!-- loader.......................................................................................... -->
+<script>
+    $(window).on("load",function(){
+        $(".mainss").fadeOut(4000)
+    })
+
+
+
+setTimeout(function(){
+    $(window).on("load",function(){
+    $("#swiper_11").fadeTo(5000, 1)
+})
+
+})
+
+
+
+
+
 </script>
 
 
