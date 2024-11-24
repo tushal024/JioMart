@@ -60,7 +60,7 @@ document.querySelector("#login").addEventListener("submit", (h) => {
                     icon: "success",
                     html: `
                   
-                    <a href="index.html" class="text-[blue] underline" autofocus>Go To Shop Now</a>,
+                    <a href="index.html" class="text-[blue] hover:underline"  style="border: none;" autofocus>Go To Shop Now</a>,
                    
                   `
                 });
